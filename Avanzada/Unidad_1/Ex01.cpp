@@ -1,5 +1,12 @@
+/************************************
+* Uso de arreglos con apuntadores.  *
+* Inicialización de un arreglo de   *
+* números aleatorios y encontrar el *
+* número más grande.                *
+*************************************/
+
 #include <iostream>
-//#include <cstdlib>
+//#include <cstdlib> //Descomentar esta linea si usas windows
 #include <ctime>
 
 using namespace std;
@@ -17,7 +24,7 @@ int main(void)
         srand ( time(NULL) );
         for (i = 0; i < size; i++)
         {
-            ptrA[i] = rand();
+            ptrA[i] = rand()%size;
             cout << *(ptrA+i) << " , ";
         }
         for (i = 0; i < size; i++)
