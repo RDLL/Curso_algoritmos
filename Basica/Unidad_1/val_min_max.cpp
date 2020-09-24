@@ -1,6 +1,17 @@
-#include <iostream>
-#include <climits>
-#include <cfloat>
+/***************************************************
+* Declaración e inicialización de variables.       *
+* Uso de cout y operador de inserción de flujo <<  *
+* para mostrar información sobre las variable.     *
+* Uso de macros que contienen los valores minimos  *
+* o maximos que puede tener una variable según     *
+* su tipo.                                         *
+* Uso de funcion sizeof(variable) la cual devuelve *
+* el tamaño en bytes que ocupa una variable en la  *
+* memoria.                                         *
+****************************************************/
+#include <iostream> // Cabecera para funciones de los flujos de entrada y salida
+#include <climits> // Cabecera para el uso de macros de valores minimos y maximos de bool, char e int
+#include <cfloat> // Cabecera para macros de valores minimos y maximo de float y double
 
 using namespace std;
 
