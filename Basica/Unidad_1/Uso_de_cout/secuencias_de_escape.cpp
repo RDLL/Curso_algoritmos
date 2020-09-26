@@ -21,7 +21,7 @@ int main()
     cout << "de ahí su nombre" << endl;
     cout << "\\t\t es parecido a oprimir el TAB en el teclado\n";
     cout << "y \\v\v es parecido a oprimir Enter en el teclado\vaunque más bien se parece a \\f\f";
-    cout << "no lo crees\?";
+    cout << "no lo crees\?\n";
     cout << "Si ya te diste cuenta como funciona \\f\f" << endl;
     cout << "Ahora puedes ver lo que hace endl" << endl;
     cout << "\120 es igual a 80 en ASCII" << endl;
