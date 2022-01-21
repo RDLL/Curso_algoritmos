@@ -23,10 +23,10 @@ int main()
     cout << "y \\v\v es parecido a oprimir Enter en el teclado\vaunque más bien se parece a \\f\f";
     cout << "no lo crees\?\n";
     cout << "Si ya te diste cuenta como funciona \\f\f" << endl;
-    cout << "Ahora puedes ver lo que hace endl" << endl;
-    cout << "\120 es igual a 80 en ASCII" << endl;
-    cout << "\x41 es igual a 65 en ASCII" << endl;
+    cout << "Ahora puedes ver lo que hace endl" << '\n';
+    cout << "\120 es igual a 80 en ASCII" << '\n';
+    cout << "\x41 es igual a 65 en ASCII" << '\n';
     cout << "\u00B6 es igual a \U000000B6 \n";
-    cout << "pero \u102AF no es igual a \U000102AF" << endl;
+    cout << "pero \u102AF no es igual a \U000102AF" << '\n';
     return 0;
 }

@@ -9,9 +9,9 @@ int main()
     double numG = 23435.43;
     char letter;
     letter = 65;
-    cout << num << endl;
-    cout << numD << endl;
-	cout << numG << endl;
-	cout << letter << endl;
+    cout << num << '\n';
+    cout << numD << '\n';
+	cout << numG << '\n';
+	cout << letter << '\n';
 	return 0;
 }

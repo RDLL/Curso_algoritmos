@@ -19,6 +19,6 @@ int main()
 	cout<<"pero ";
 	cout<<"no ";
 	cout<<"lo ";
-	cout<<"es."<< endl;
+	cout<<"es."<< '\n';
 	return 0;
 }
