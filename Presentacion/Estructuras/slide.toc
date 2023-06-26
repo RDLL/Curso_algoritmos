@@ -1,0 +1,46 @@
+\beamer@sectionintoc {1}{Introducción}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{\textquestiondown Qué es un algoritmo?}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{\textquestiondown Como programar algoritmos?}{6}{0}{1}
+\beamer@subsectionintoc {1}{3}{\\textquestiondown Que lenguajes de programaci\'on usar?}{8}{0}{1}
+\beamer@sectionintoc {2}{Conceptos B\'asicos}{10}{0}{2}
+\beamer@subsectionintoc {2}{1}{Bibliotecas y cabeceras}{11}{0}{2}
+\beamer@subsectionintoc {2}{2}{Tipos de Datos}{14}{0}{2}
+\beamer@subsubsectionintoc {2}{2}{1}{N\'umericos}{15}{0}{2}
+\beamer@subsubsectionintoc {2}{2}{2}{Caracteres}{18}{0}{2}
+\beamer@subsubsectionintoc {2}{2}{3}{Lógicos}{20}{0}{2}
+\beamer@subsubsectionintoc {2}{2}{4}{Contenedores y colecciones}{21}{0}{2}
+\beamer@sectionintoc {3}{Espacio de nombres}{25}{0}{3}
+\beamer@subsectionintoc {3}{1}{std}{26}{0}{3}
+\beamer@sectionintoc {4}{Operaciones}{27}{0}{4}
+\beamer@subsectionintoc {4}{1}{Operaciones Matem\'aticas}{28}{0}{4}
+\beamer@subsectionintoc {4}{2}{Operaciones L\'ogicas}{30}{0}{4}
+\beamer@sectionintoc {5}{Condicionales}{32}{0}{5}
+\beamer@subsectionintoc {5}{1}{Introducci\'on}{33}{0}{5}
+\beamer@subsectionintoc {5}{2}{if else elif}{35}{0}{5}
+\beamer@subsectionintoc {5}{3}{Switch}{39}{0}{5}
+\beamer@subsectionintoc {5}{4}{Operador ternario}{41}{0}{5}
+\beamer@sectionintoc {6}{Ciclos}{43}{0}{6}
+\beamer@subsectionintoc {6}{1}{Introducci\'on}{44}{0}{6}
+\beamer@subsectionintoc {6}{2}{for}{46}{0}{6}
+\beamer@subsectionintoc {6}{3}{while}{48}{0}{6}
+\beamer@subsectionintoc {6}{4}{do while}{50}{0}{6}
+\beamer@sectionintoc {7}{Arreglos}{52}{0}{7}
+\beamer@subsectionintoc {7}{1}{Introducci\'on}{53}{0}{7}
+\beamer@subsectionintoc {7}{2}{Declaraci\'on}{55}{0}{7}
+\beamer@sectionintoc {8}{Funciones}{57}{0}{8}
+\beamer@subsectionintoc {8}{1}{Introducci\'on}{58}{0}{8}
+\beamer@sectionintoc {9}{Apuntadores}{59}{0}{9}
+\beamer@subsectionintoc {9}{1}{Introducci\'on}{60}{0}{9}
+\beamer@sectionintoc {10}{Estructuras de Datos}{61}{0}{10}
+\beamer@subsectionintoc {10}{1}{Introducci\'on}{62}{0}{10}
+\beamer@sectionintoc {11}{Objetos}{63}{0}{11}
+\beamer@subsectionintoc {11}{1}{Introducci\'on}{64}{0}{11}
+\beamer@sectionintoc {12}{Ordenamiento}{65}{0}{12}
+\beamer@subsectionintoc {12}{1}{Introducci\'on}{66}{0}{12}
+\beamer@sectionintoc {13}{B\'usqueda}{67}{0}{13}
+\beamer@subsectionintoc {13}{1}{Introducci\'on}{68}{0}{13}
+\beamer@sectionintoc {14}{Grafos}{69}{0}{14}
+\beamer@subsectionintoc {14}{1}{Introducci\'on}{70}{0}{14}
+\beamer@sectionintoc {15}{Cadenas}{71}{0}{15}
+\beamer@subsectionintoc {15}{1}{Introducci\'on}{72}{0}{15}
+\beamer@sectionintoc {16}{Referencias}{73}{0}{16}

@@ -1,0 +1,266 @@
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\beamer@sectionpages {1}{2}}
+\headcommand {\beamer@subsectionpages {1}{2}}
+\headcommand {\sectionentry {1}{Introducción}{3}{Introducción}{0}}
+\headcommand {\slideentry {1}{0}{1}{3/3}{}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\beamer@subsectionpages {3}{3}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{4}{\textquestiondown Qué es un algoritmo?}}
+\headcommand {\slideentry {1}{1}{1}{4/4}{\textquestiondown Qué es un algoritmo?}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\slideentry {1}{1}{2}{5/5}{\textquestiondown Qué es un algoritmo?}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\beamer@subsectionpages {4}{5}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{6}{\textquestiondown Como programar algoritmos?}}
+\headcommand {\slideentry {1}{2}{1}{6/6}{\textquestiondown Como programar algoritmos?}{0}}
+\headcommand {\beamer@framepages {6}{6}}
+\headcommand {\slideentry {1}{2}{2}{7/7}{\textquestiondown Como programar algoritmos?}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\beamer@subsectionpages {6}{7}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{8}{\\textquestiondown Que lenguajes de programaci\'on usar?}}
+\headcommand {\slideentry {1}{3}{1}{8/8}{\\textquestiondown Que lenguajes de programaci\'on usar?}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\slideentry {1}{3}{2}{9/9}{\\textquestiondown Que lenguajes de programaci\'on usar?}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\beamer@sectionpages {3}{9}}
+\headcommand {\beamer@subsectionpages {8}{9}}
+\headcommand {\sectionentry {2}{Conceptos B\'asicos}{10}{Conceptos B\'asicos}{0}}
+\headcommand {\slideentry {2}{0}{1}{10/10}{}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\beamer@subsectionpages {10}{10}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{11}{Bibliotecas y cabeceras}}
+\headcommand {\slideentry {2}{1}{1}{11/11}{Bibliotecas y cabeceras}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\slideentry {2}{1}{2}{12/12}{Bibliotecas y cabeceras}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\slideentry {2}{1}{3}{13/13}{Bibliotecas y cabeceras}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\beamer@subsectionpages {11}{13}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{14}{Tipos de Datos}}
+\headcommand {\slideentry {2}{2}{1}{14/14}{Tipos de Datos}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\beamer@subsubsectionentry {0}{2}{2}{1}{15}{N\'umericos}}
+\headcommand {\slideentry {2}{2}{2}{15/15}{Tipos de Datos}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\slideentry {2}{2}{3}{16/16}{Tipos de Datos}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\slideentry {2}{2}{4}{17/17}{Tipos de Datos}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\beamer@subsubsectionentry {0}{2}{2}{2}{18}{Caracteres}}
+\headcommand {\slideentry {2}{2}{5}{18/18}{Tipos de Datos}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\slideentry {2}{2}{6}{19/19}{Tipos de Datos}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\beamer@subsubsectionentry {0}{2}{2}{3}{20}{Lógicos}}
+\headcommand {\slideentry {2}{2}{7}{20/20}{Tipos de Datos}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\beamer@subsubsectionentry {0}{2}{2}{4}{21}{Contenedores y colecciones}}
+\headcommand {\slideentry {2}{2}{8}{21/21}{Tipos de Datos}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {2}{2}{9}{22/22}{Tipos de Datos}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\slideentry {2}{2}{10}{23/23}{Tipos de Datos}{0}}
+\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\slideentry {2}{2}{11}{24/24}{Tipos de Datos}{0}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\beamer@sectionpages {10}{24}}
+\headcommand {\beamer@subsectionpages {14}{24}}
+\headcommand {\sectionentry {3}{Espacio de nombres}{25}{Espacio de nombres}{0}}
+\headcommand {\slideentry {3}{0}{1}{25/25}{}{0}}
+\headcommand {\beamer@framepages {25}{25}}
+\headcommand {\beamer@subsectionpages {25}{25}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{26}{std}}
+\headcommand {\slideentry {3}{1}{1}{26/26}{std}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\beamer@sectionpages {25}{26}}
+\headcommand {\beamer@subsectionpages {26}{26}}
+\headcommand {\sectionentry {4}{Operaciones}{27}{Operaciones}{0}}
+\headcommand {\slideentry {4}{0}{1}{27/27}{}{0}}
+\headcommand {\beamer@framepages {27}{27}}
+\headcommand {\beamer@subsectionpages {27}{27}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{28}{Operaciones Matem\'aticas}}
+\headcommand {\slideentry {4}{1}{1}{28/28}{Operaciones Matem\'aticas}{0}}
+\headcommand {\beamer@framepages {28}{28}}
+\headcommand {\slideentry {4}{1}{2}{29/29}{Operaciones Matem\'aticas}{0}}
+\headcommand {\beamer@framepages {29}{29}}
+\headcommand {\beamer@subsectionpages {28}{29}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{30}{Operaciones L\'ogicas}}
+\headcommand {\slideentry {4}{2}{1}{30/30}{Operaciones L\'ogicas}{0}}
+\headcommand {\beamer@framepages {30}{30}}
+\headcommand {\slideentry {4}{2}{2}{31/31}{Operaciones L\'ogicas}{0}}
+\headcommand {\beamer@framepages {31}{31}}
+\headcommand {\beamer@sectionpages {27}{31}}
+\headcommand {\beamer@subsectionpages {30}{31}}
+\headcommand {\sectionentry {5}{Condicionales}{32}{Condicionales}{0}}
+\headcommand {\slideentry {5}{0}{1}{32/32}{}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\beamer@subsectionpages {32}{32}}
+\headcommand {\beamer@subsectionentry {0}{5}{1}{33}{Introducci\'on}}
+\headcommand {\slideentry {5}{1}{1}{33/33}{Introducci\'on}{0}}
+\headcommand {\beamer@framepages {33}{33}}
+\headcommand {\slideentry {5}{1}{2}{34/34}{Introducci\'on}{0}}
+\headcommand {\beamer@framepages {34}{34}}
+\headcommand {\beamer@subsectionpages {33}{34}}
+\headcommand {\beamer@subsectionentry {0}{5}{2}{35}{if else elif}}
+\headcommand {\slideentry {5}{2}{1}{35/35}{if else elif}{0}}
+\headcommand {\beamer@framepages {35}{35}}
+\headcommand {\slideentry {5}{2}{2}{36/36}{if else elif}{0}}
+\headcommand {\beamer@framepages {36}{36}}
+\headcommand {\slideentry {5}{2}{3}{37/37}{if else elif}{0}}
+\headcommand {\beamer@framepages {37}{37}}
+\headcommand {\slideentry {5}{2}{4}{38/38}{if else elif}{0}}
+\headcommand {\beamer@framepages {38}{38}}
+\headcommand {\beamer@subsectionpages {35}{38}}
+\headcommand {\beamer@subsectionentry {0}{5}{3}{39}{Switch}}
+\headcommand {\slideentry {5}{3}{1}{39/39}{Switch}{0}}
+\headcommand {\beamer@framepages {39}{39}}
+\headcommand {\slideentry {5}{3}{2}{40/40}{Switch}{0}}
+\headcommand {\beamer@framepages {40}{40}}
+\headcommand {\beamer@subsectionpages {39}{40}}
+\headcommand {\beamer@subsectionentry {0}{5}{4}{41}{Operador ternario}}
+\headcommand {\slideentry {5}{4}{1}{41/41}{Operador ternario}{0}}
+\headcommand {\beamer@framepages {41}{41}}
+\headcommand {\slideentry {5}{4}{2}{42/42}{Operador ternario}{0}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\beamer@sectionpages {32}{42}}
+\headcommand {\beamer@subsectionpages {41}{42}}
+\headcommand {\sectionentry {6}{Ciclos}{43}{Ciclos}{0}}
+\headcommand {\slideentry {6}{0}{1}{43/43}{}{0}}
+\headcommand {\beamer@framepages {43}{43}}
+\headcommand {\beamer@subsectionpages {43}{43}}
+\headcommand {\beamer@subsectionentry {0}{6}{1}{44}{Introducci\'on}}
+\headcommand {\slideentry {6}{1}{1}{44/44}{Introducci\'on}{0}}
+\headcommand {\beamer@framepages {44}{44}}
+\headcommand {\slideentry {6}{1}{2}{45/45}{Introducci\'on}{0}}
+\headcommand {\beamer@framepages {45}{45}}
+\headcommand {\beamer@subsectionpages {44}{45}}
+\headcommand {\beamer@subsectionentry {0}{6}{2}{46}{for}}
+\headcommand {\slideentry {6}{2}{1}{46/46}{for}{0}}
+\headcommand {\beamer@framepages {46}{46}}
+\headcommand {\slideentry {6}{2}{2}{47/47}{for}{0}}
+\headcommand {\beamer@framepages {47}{47}}
+\headcommand {\beamer@subsectionpages {46}{47}}
+\headcommand {\beamer@subsectionentry {0}{6}{3}{48}{while}}
+\headcommand {\slideentry {6}{3}{1}{48/48}{while}{0}}
+\headcommand {\beamer@framepages {48}{48}}
+\headcommand {\slideentry {6}{3}{2}{49/49}{while}{0}}
+\headcommand {\beamer@framepages {49}{49}}
+\headcommand {\beamer@subsectionpages {48}{49}}
+\headcommand {\beamer@subsectionentry {0}{6}{4}{50}{do while}}
+\headcommand {\slideentry {6}{4}{1}{50/50}{do while}{0}}
+\headcommand {\beamer@framepages {50}{50}}
+\headcommand {\slideentry {6}{4}{2}{51/51}{do while}{0}}
+\headcommand {\beamer@framepages {51}{51}}
+\headcommand {\beamer@sectionpages {43}{51}}
+\headcommand {\beamer@subsectionpages {50}{51}}
+\headcommand {\sectionentry {7}{Arreglos}{52}{Arreglos}{0}}
+\headcommand {\slideentry {7}{0}{1}{52/52}{}{0}}
+\headcommand {\beamer@framepages {52}{52}}
+\headcommand {\beamer@subsectionpages {52}{52}}
+\headcommand {\beamer@subsectionentry {0}{7}{1}{53}{Introducci\'on}}
+\headcommand {\slideentry {7}{1}{1}{53/53}{Introducci\'on}{0}}
+\headcommand {\beamer@framepages {53}{53}}
+\headcommand {\slideentry {7}{1}{2}{54/54}{Introducci\'on}{0}}
+\headcommand {\beamer@framepages {54}{54}}
+\headcommand {\beamer@subsectionpages {53}{54}}
+\headcommand {\beamer@subsectionentry {0}{7}{2}{55}{Declaraci\'on}}
+\headcommand {\slideentry {7}{2}{1}{55/55}{Declaraci\'on}{0}}
+\headcommand {\beamer@framepages {55}{55}}
+\headcommand {\slideentry {7}{2}{2}{56/56}{Declaraci\'on}{0}}
+\headcommand {\beamer@framepages {56}{56}}
+\headcommand {\beamer@sectionpages {52}{56}}
+\headcommand {\beamer@subsectionpages {55}{56}}
+\headcommand {\sectionentry {8}{Funciones}{57}{Funciones}{0}}
+\headcommand {\slideentry {8}{0}{1}{57/57}{}{0}}
+\headcommand {\beamer@framepages {57}{57}}
+\headcommand {\beamer@subsectionpages {57}{57}}
+\headcommand {\beamer@subsectionentry {0}{8}{1}{58}{Introducci\'on}}
+\headcommand {\slideentry {8}{1}{1}{58/58}{Introducci\'on}{0}}
+\headcommand {\beamer@framepages {58}{58}}
+\headcommand {\beamer@sectionpages {57}{58}}
+\headcommand {\beamer@subsectionpages {58}{58}}
+\headcommand {\sectionentry {9}{Apuntadores}{59}{Apuntadores}{0}}
+\headcommand {\slideentry {9}{0}{1}{59/59}{}{0}}
+\headcommand {\beamer@framepages {59}{59}}
+\headcommand {\beamer@subsectionpages {59}{59}}
+\headcommand {\beamer@subsectionentry {0}{9}{1}{60}{Introducci\'on}}
+\headcommand {\slideentry {9}{1}{1}{60/60}{Introducci\'on}{0}}
+\headcommand {\beamer@framepages {60}{60}}
+\headcommand {\beamer@sectionpages {59}{60}}
+\headcommand {\beamer@subsectionpages {60}{60}}
+\headcommand {\sectionentry {10}{Estructuras de Datos}{61}{Estructuras de Datos}{0}}
+\headcommand {\slideentry {10}{0}{1}{61/61}{}{0}}
+\headcommand {\beamer@framepages {61}{61}}
+\headcommand {\beamer@subsectionpages {61}{61}}
+\headcommand {\beamer@subsectionentry {0}{10}{1}{62}{Introducci\'on}}
+\headcommand {\slideentry {10}{1}{1}{62/62}{Introducci\'on}{0}}
+\headcommand {\beamer@framepages {62}{62}}
+\headcommand {\beamer@sectionpages {61}{62}}
+\headcommand {\beamer@subsectionpages {62}{62}}
+\headcommand {\sectionentry {11}{Objetos}{63}{Objetos}{0}}
+\headcommand {\slideentry {11}{0}{1}{63/63}{}{0}}
+\headcommand {\beamer@framepages {63}{63}}
+\headcommand {\beamer@subsectionpages {63}{63}}
+\headcommand {\beamer@subsectionentry {0}{11}{1}{64}{Introducci\'on}}
+\headcommand {\slideentry {11}{1}{1}{64/64}{Introducci\'on}{0}}
+\headcommand {\beamer@framepages {64}{64}}
+\headcommand {\beamer@sectionpages {63}{64}}
+\headcommand {\beamer@subsectionpages {64}{64}}
+\headcommand {\sectionentry {12}{Ordenamiento}{65}{Ordenamiento}{0}}
+\headcommand {\slideentry {12}{0}{1}{65/65}{}{0}}
+\headcommand {\beamer@framepages {65}{65}}
+\headcommand {\beamer@subsectionpages {65}{65}}
+\headcommand {\beamer@subsectionentry {0}{12}{1}{66}{Introducci\'on}}
+\headcommand {\slideentry {12}{1}{1}{66/66}{Introducci\'on}{0}}
+\headcommand {\beamer@framepages {66}{66}}
+\headcommand {\beamer@sectionpages {65}{66}}
+\headcommand {\beamer@subsectionpages {66}{66}}
+\headcommand {\sectionentry {13}{B\'usqueda}{67}{B\'usqueda}{0}}
+\headcommand {\slideentry {13}{0}{1}{67/67}{}{0}}
+\headcommand {\beamer@framepages {67}{67}}
+\headcommand {\beamer@subsectionpages {67}{67}}
+\headcommand {\beamer@subsectionentry {0}{13}{1}{68}{Introducci\'on}}
+\headcommand {\slideentry {13}{1}{1}{68/68}{Introducci\'on}{0}}
+\headcommand {\beamer@framepages {68}{68}}
+\headcommand {\beamer@sectionpages {67}{68}}
+\headcommand {\beamer@subsectionpages {68}{68}}
+\headcommand {\sectionentry {14}{Grafos}{69}{Grafos}{0}}
+\headcommand {\slideentry {14}{0}{1}{69/69}{}{0}}
+\headcommand {\beamer@framepages {69}{69}}
+\headcommand {\beamer@subsectionpages {69}{69}}
+\headcommand {\beamer@subsectionentry {0}{14}{1}{70}{Introducci\'on}}
+\headcommand {\slideentry {14}{1}{1}{70/70}{Introducci\'on}{0}}
+\headcommand {\beamer@framepages {70}{70}}
+\headcommand {\beamer@sectionpages {69}{70}}
+\headcommand {\beamer@subsectionpages {70}{70}}
+\headcommand {\sectionentry {15}{Cadenas}{71}{Cadenas}{0}}
+\headcommand {\slideentry {15}{0}{1}{71/71}{}{0}}
+\headcommand {\beamer@framepages {71}{71}}
+\headcommand {\beamer@subsectionpages {71}{71}}
+\headcommand {\beamer@subsectionentry {0}{15}{1}{72}{Introducci\'on}}
+\headcommand {\slideentry {15}{1}{1}{72/72}{Introducci\'on}{0}}
+\headcommand {\beamer@framepages {72}{72}}
+\headcommand {\beamer@sectionpages {71}{72}}
+\headcommand {\beamer@subsectionpages {72}{72}}
+\headcommand {\sectionentry {16}{Referencias}{73}{Referencias}{0}}
+\headcommand {\slideentry {16}{0}{1}{73/73}{}{0}}
+\headcommand {\beamer@framepages {73}{73}}
+\headcommand {\beamer@subsectionpages {73}{73}}
+\headcommand {\slideentry {16}{1}{1}{74/74}{}{0}}
+\headcommand {\beamer@framepages {74}{74}}
+\headcommand {\slideentry {16}{1}{1}{74/75}{}{0}}
+\headcommand {\beamer@framepages {74}{75}}
+\headcommand {\slideentry {16}{1}{1}{74/76}{}{0}}
+\headcommand {\beamer@framepages {74}{76}}
+\headcommand {\slideentry {16}{1}{1}{74/77}{}{0}}
+\headcommand {\beamer@framepages {74}{77}}
+\headcommand {\slideentry {16}{1}{2}{78/78}{}{0}}
+\headcommand {\beamer@framepages {78}{78}}
+\headcommand {\beamer@partpages {1}{78}}
+\headcommand {\beamer@subsectionpages {74}{78}}
+\headcommand {\beamer@sectionpages {73}{78}}
+\headcommand {\beamer@documentpages {78}}
+\headcommand {\gdef \inserttotalframenumber {78}}
