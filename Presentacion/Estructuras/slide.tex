@@ -274,7 +274,7 @@ En este curso veremos los ejemplos en Python y \Cpp, \Cpp por ser el m\'as utili
 
 \begin{frame}{Switch}
     \begin{itemize}
-        \item En Python no existe pero se puede hacer con diccionarios o concatenando m\'ultiples \textbf{if else}
+        \item En Python no existe pero se puede hacer con diccionarios o ecandenando m\'ultiples \textbf{if else}
         \item Es una estructura que eval\'ua m\'ultiples casos posibles en base al posible valor de una variable
         \item Tambi\'en puede contener otras estructuras
     \end{itemize}
@@ -339,61 +339,37 @@ En este curso veremos los ejemplos en Python y \Cpp, \Cpp por ser el m\'as utili
             \item Puede contener m\'ultiples valores
             \item Su espacio en memoria var\'ia seg\'un el tipo de dato y los valores que pueda tener
             \item En Python como tal no existen,  se usan las listas en su lugar
+            \item El \'indice siempre empieza en cero, puede variar en algunos lenguajes, pero suele ser una regla general
         \end{itemize}
 \end{frame}
 
 \subsection{Funcionamiento}
 
 \begin{frame}{Almacenamiento en memoria}
-    \begin{tikzpicture}[
-    	2d-arr/.style={matrix of nodes, row sep=-\pgflinewidth, column sep=-\pgflinewidth, nodes={draw}}
-    	]
-    	
-    	\matrix (mtr) [ampersand replacement=\&,2d-arr] {
-    		2 & 1 & 1 & |[fill=orange!30]| 1 & |[fill=orange!30]| 0 & |[fill=orange!30]| 0 & 0\\
-    		0 & 0 & 1 & |[fill=orange!30]| 1 & |[fill=orange!30]| 1 & |[fill=orange!30]| 0 & 0\\
-    		0 & 0 & 0 & |[fill=orange!30]| 1 & |[fill=orange!30]| 1 & |[fill=orange!30]| 1 & 0\\
-    		0 & 0 & 0 & 1 & 1 & 0 & 0\\
-    		0 & 0 & 1 & 1 & 0 & 0 & 0\\
-    		0 & 1 & 1 & 0 & 0 & 0 & 0\\
-    		1 & 1 & 0 & 0 & 0 & 0 & 0\\
+	\begin{itemize}
+		\item El valor nos \'indica el contenido del arreglo en determinada posici\'on
+		\item El \'indice nos indica la posici\'on en el arreglo
+		\item La direcci\'on de memoria donde se encuentra almacenado dicho valor	\end{itemize}
+	\centering
+    \begin{tikzpicture}[ampersand replacement=\&,every node/.style={draw}]
+    	\matrix [draw=red,column sep=1cm]
+    	{
+    		\node {Valor}; \& \node {Indice}; \& \node{Direcci\'on}; \\
+    		\node {325}; \& \node{0}; \& \node {0x61fee8}; \\
+    		\node {400}; \& \node{1}; \& \node {0x61feec}; \\
+    		\node {78}; \& \node{2}; \& \node {0x61fef0}; \\
     	};
-    	
-    	\node[below=of mtr-5-4] {$\mathbf I$};
-    	
-    	\node[right=0.2em of mtr] (str) {$*$};
-    	
-    	\matrix (K) [ampersand replacement=\&,2d-arr, right=0.2em of str, nodes={draw, fill=teal!30}] {
-    		1 & 0 & 1 \\
-    		0 & 1 & 0 \\
-    		1 & 0 & 1 \\
-    	};
-    	\node[below=of K-3-2] {$\mathbf K$};
-    	
-    	\node[right=0.2em of K] (eq) {$=$};
-    	
-    	\matrix (ret) [ampersand replacement=\&,2d-arr, right=0.2em of eq] {
-    		1 & 4 & 3 & |[fill=blue!80!black!30]| 4 & 1\\
-    		1 & 2 & 4 & 3 & 3\\
-    		1 & 2 & 3 & 4 & 1\\
-    		1 & 3 & 3 & 1 & 1\\
-    		3 & 3 & 1 & 1 & 0\\
-    	};
-    	\node[below=of ret-4-3] {$\mathbf{I * K}$};
-    	
-    	\draw[dashed, teal] (mtr-1-6.north east) -- (K-1-1.north west);
-    	\draw[dashed, teal] (mtr-3-6.south east) -- (K-3-1.south west);
-    	
-    	\draw[dashed, blue!80!black] (K-1-3.north east) -- (ret-1-4.north west);
-    	\draw[dashed, blue!80!black] (K-3-3.south east) -- (ret-1-4.south west);
-    	
-    	\foreach \i in {1,2,3} {
-    		\foreach \j in {4,5,6} {
-    			\node[font=\tiny, scale=0.6, shift={(-1.2ex,-2ex)}] at (mtr-\i-\j) {$\times \pgfmathparse{int(mod(\i+\j,2))}\pgfmathresult$};
-    		}
-    	}
     	
     \end{tikzpicture}
+\end{frame}
+
+\begin{frame}{Recorrido}
+	\tikz :fill = {0s = "red", 2s = "blue", begin on = click}
+	[text = white, fill = orange ] {
+		\node [fill]                   at (0mm,0) {A};
+		\node [fill]                   at (5mm,0) {B};
+		\node [fill = green!50!black ] at (1cm,0) {C};
+	};
 \end{frame}
 
 \section{Funciones}
@@ -431,7 +407,7 @@ En este curso veremos los ejemplos en Python y \Cpp, \Cpp por ser el m\'as utili
 
 \begin{frame}
     \begin{center}
-        {\Huge\calligra Thanks!}
+        {\Huge\calligra Danke!}
     \end{center}
 \end{frame}
 
