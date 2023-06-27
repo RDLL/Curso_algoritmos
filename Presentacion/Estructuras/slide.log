@@ -1,1019 +1,793 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.26)  26 JUN 2023 11:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.6.17)  27 JUN 2023 01:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./slide.tex
-(slide.tex
-LaTeX2e <2023-06-01> patch level 1
-L3 programming layer <2023-06-16>
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
-Document Class: beamer 2023/05/15 v3.70 A class for typesetting presentations
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemodes.s
-ty (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+**slide.tex
+(./slide.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03>
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
+Document Class: beamer 2020/11/26 v3.60 A class for typesetting presentations
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count185
+\etb@tempcnta=\count177
 )
-\beamer@tempbox=\box51
-\beamer@tempcount=\count186
-\c@beamerpauses=\count187
+\beamer@tempbox=\box47
+\beamer@tempcount=\count178
+\c@beamerpauses=\count179
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasedecode.
-sty
-\beamer@slideinframe=\count188
-\beamer@minimum=\count189
-\beamer@decode@box=\box52
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+\beamer@slideinframe=\count180
+\beamer@minimum=\count181
+\beamer@decode@box=\box48
 )
-\beamer@commentbox=\box53
-\beamer@modecount=\count190
-) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+\beamer@commentbox=\box49
+\beamer@modecount=\count182
 )
-\headdp=\dimen140
-\footheight=\dimen141
-\sidebarheight=\dimen142
-\beamer@tempdim=\dimen143
-\beamer@finalheight=\dimen144
-\beamer@animht=\dimen145
-\beamer@animdp=\dimen146
-\beamer@animwd=\dimen147
-\beamer@leftmargin=\dimen148
-\beamer@rightmargin=\dimen149
-\beamer@leftsidebar=\dimen150
-\beamer@rightsidebar=\dimen151
-\beamer@boxsize=\dimen152
-\beamer@vboxoffset=\dimen153
-\beamer@descdefault=\dimen154
-\beamer@descriptionwidth=\dimen155
-\beamer@lastskip=\skip48
-\beamer@areabox=\box54
-\beamer@animcurrent=\box55
-\beamer@animshowbox=\box56
-\beamer@sectionbox=\box57
-\beamer@logobox=\box58
-\beamer@linebox=\box59
-\beamer@sectioncount=\count191
-\beamer@subsubsectionmax=\count192
-\beamer@subsectionmax=\count193
-\beamer@sectionmax=\count194
-\beamer@totalheads=\count195
-\beamer@headcounter=\count196
-\beamer@partstartpage=\count197
-\beamer@sectionstartpage=\count198
-\beamer@subsectionstartpage=\count199
-\beamer@animationtempa=\count266
-\beamer@animationtempb=\count267
-\beamer@xpos=\count268
-\beamer@ypos=\count269
-\beamer@ypos@offset=\count270
-\beamer@showpartnumber=\count271
-\beamer@currentsubsection=\count272
-\beamer@coveringdepth=\count273
-\beamer@sectionadjust=\count274
-\beamer@toclastsection=\count275
-\beamer@tocsectionnumber=\count276
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseoptions
-.sty (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\beamer@paperwidth=\skip49
-\beamer@paperheight=\skip50
- (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+\headdp=\dimen138
+\footheight=\dimen139
+\sidebarheight=\dimen140
+\beamer@tempdim=\dimen141
+\beamer@finalheight=\dimen142
+\beamer@animht=\dimen143
+\beamer@animdp=\dimen144
+\beamer@animwd=\dimen145
+\beamer@leftmargin=\dimen146
+\beamer@rightmargin=\dimen147
+\beamer@leftsidebar=\dimen148
+\beamer@rightsidebar=\dimen149
+\beamer@boxsize=\dimen150
+\beamer@vboxoffset=\dimen151
+\beamer@descdefault=\dimen152
+\beamer@descriptionwidth=\dimen153
+\beamer@lastskip=\skip47
+\beamer@areabox=\box50
+\beamer@animcurrent=\box51
+\beamer@animshowbox=\box52
+\beamer@sectionbox=\box53
+\beamer@logobox=\box54
+\beamer@linebox=\box55
+\beamer@sectioncount=\count183
+\beamer@subsubsectionmax=\count184
+\beamer@subsectionmax=\count185
+\beamer@sectionmax=\count186
+\beamer@totalheads=\count187
+\beamer@headcounter=\count188
+\beamer@partstartpage=\count189
+\beamer@sectionstartpage=\count190
+\beamer@subsectionstartpage=\count191
+\beamer@animationtempa=\count192
+\beamer@animationtempb=\count193
+\beamer@xpos=\count194
+\beamer@ypos=\count195
+\beamer@ypos@offset=\count196
+\beamer@showpartnumber=\count197
+\beamer@currentsubsection=\count198
+\beamer@coveringdepth=\count199
+\beamer@sectionadjust=\count266
+\beamer@tocsectionnumber=\count267
+
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+))
+\beamer@paperwidth=\skip48
+\beamer@paperheight=\skip49
+
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count277
-\Gm@cntv=\count278
-\c@Gm@tempcnt=\count279
-\Gm@bindingoffset=\dimen156
-\Gm@wd@mp=\dimen157
-\Gm@odd@mp=\dimen158
-\Gm@even@mp=\dimen159
-\Gm@layoutwidth=\dimen160
-\Gm@layoutheight=\dimen161
-\Gm@layouthoffset=\dimen162
-\Gm@layoutvoffset=\dimen163
-\Gm@dimlist=\toks18
+\Gm@cnth=\count268
+\Gm@cntv=\count269
+\c@Gm@tempcnt=\count270
+\Gm@bindingoffset=\dimen154
+\Gm@wd@mp=\dimen155
+\Gm@odd@mp=\dimen156
+\Gm@even@mp=\dimen157
+\Gm@layoutwidth=\dimen158
+\Gm@layoutheight=\dimen159
+\Gm@layouthoffset=\dimen160
+\Gm@layoutvoffset=\dimen161
+\Gm@dimlist=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-
-common.tex
-\pgfutil@everybye=\toks19
-\pgfutil@tempdima=\dimen164
-\pgfutil@tempdimb=\dimen165
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-
-latex.def
-\pgfutil@abb=\box60
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.c
-ode.tex
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
-Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
-))
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.st
-y
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.
-code.tex
-\pgfkeys@pathtoks=\toks20
-\pgfkeys@temptoks=\toks21
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysl
-ibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks22
-)))
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.
-tex
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.c
-ode.tex
-\pgf@x=\dimen166
-\pgf@xa=\dimen167
-\pgf@xb=\dimen168
-\pgf@xc=\dimen169
-\pgf@y=\dimen170
-\pgf@ya=\dimen171
-\pgf@yb=\dimen172
-\pgf@yc=\dimen173
-\c@pgf@counta=\count280
-\c@pgf@countb=\count281
-\c@pgf@countc=\count282
-\c@pgf@countd=\count283
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser
-.code.tex
-\pgfmath@dimen=\dimen174
-\pgfmath@count=\count284
-\pgfmath@box=\box61
-\pgfmath@toks=\toks23
-\pgfmath@stack@operand=\toks24
-\pgfmath@stack@operation=\toks25
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.code.tex)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.basic.code.tex)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.trigonometric.code.tex)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.random.code.tex)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.comparison.code.tex)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.base.code.tex)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.round.code.tex)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.misc.code.tex)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.integerarithmetics.code.tex)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.c
-ode.tex)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.
-code.tex
-\c@pgfmathroundto@lastzeros=\count285
-)))
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
-File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.s
-ty (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cf
-g
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen175
-\Gin@req@width=\dimen176
+\Gin@req@height=\dimen162
+\Gin@req@width=\dimen163
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.s
-ty
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
-.code.tex
-Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
-\pgf@x=\dimen177
-\pgf@y=\dimen178
-\pgf@xa=\dimen179
-\pgf@ya=\dimen180
-\pgf@xb=\dimen181
-\pgf@yb=\dimen182
-\pgf@xc=\dimen183
-\pgf@yc=\dimen184
-\pgf@xd=\dimen185
-\pgf@yd=\dimen186
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks17
+\pgfutil@tempdima=\dimen164
+\pgfutil@tempdimb=\dimen165
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box56
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks18
+\pgfkeys@temptoks=\toks19
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks20
+))
+\pgf@x=\dimen166
+\pgf@y=\dimen167
+\pgf@xa=\dimen168
+\pgf@ya=\dimen169
+\pgf@xb=\dimen170
+\pgf@yb=\dimen171
+\pgf@xc=\dimen172
+\pgf@yc=\dimen173
+\pgf@xd=\dimen174
+\pgf@yd=\dimen175
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count286
-\c@pgf@countb=\count287
-\c@pgf@countc=\count288
-\c@pgf@countd=\count289
-\t@pgf@toka=\toks26
-\t@pgf@tokb=\toks27
-\t@pgf@tokc=\toks28
-\pgf@sys@id@count=\count290
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cf
-g
-File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+\c@pgf@counta=\count271
+\c@pgf@countb=\count272
+\c@pgf@countc=\count273
+\c@pgf@countd=\count274
+\t@pgf@toka=\toks21
+\t@pgf@tokb=\toks22
+\t@pgf@tokc=\toks23
+\pgf@sys@id@count=\count275
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
--pdftex.def
-File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
--common-pdf.def
-File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
 )))
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
-softpath.code.tex
-File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count291
-\pgfsyssoftpath@bigbuffer@items=\count292
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count276
+\pgfsyssoftpath@bigbuffer@items=\count277
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
-protocol.code.tex
-File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 227.
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
-Package xcolor Info: Model `RGB' extended on input line 1369.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen176
+\pgfmath@count=\count278
+\pgfmath@box=\box57
+\pgfmath@toks=\toks24
+\pgfmath@stack@operand=\toks25
+\pgfmath@stack@operation=\toks26
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count279
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen177
+\pgf@picmaxx=\dimen178
+\pgf@picminy=\dimen179
+\pgf@picmaxy=\dimen180
+\pgf@pathminx=\dimen181
+\pgf@pathmaxx=\dimen182
+\pgf@pathminy=\dimen183
+\pgf@pathmaxy=\dimen184
+\pgf@xx=\dimen185
+\pgf@xy=\dimen186
+\pgf@yx=\dimen187
+\pgf@yy=\dimen188
+\pgf@zx=\dimen189
+\pgf@zy=\dimen190
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen191
+\pgf@path@lasty=\dimen192
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen193
+\pgf@shorten@start@additional=\dimen194
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box58
+\pgf@hbox=\box59
+\pgf@layerbox@main=\box60
+\pgf@picture@serial@count=\count280
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen195
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen196
+\pgf@pt@y=\dimen197
+\pgf@pt@temp=\dimen198
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
 .code.tex
-Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen199
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen256
+\pgf@sys@shading@range@num=\count281
+\pgf@shadingcount=\count282
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.t
-ex)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-points.code.tex
-File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen187
-\pgf@picmaxx=\dimen188
-\pgf@picminy=\dimen189
-\pgf@picmaxy=\dimen190
-\pgf@pathminx=\dimen191
-\pgf@pathmaxx=\dimen192
-\pgf@pathminy=\dimen193
-\pgf@pathmaxy=\dimen194
-\pgf@xx=\dimen195
-\pgf@xy=\dimen196
-\pgf@yx=\dimen197
-\pgf@yy=\dimen198
-\pgf@zx=\dimen199
-\pgf@zy=\dimen256
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box61
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-pathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen257
-\pgf@path@lasty=\dimen258
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-pathusage.code.tex
-File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen259
-\pgf@shorten@start@additional=\dimen260
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-scopes.code.tex
-File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box62
-\pgf@hbox=\box63
-\pgf@layerbox@main=\box64
-\pgf@picture@serial@count=\count293
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-graphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen261
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-transformations.code.tex
-File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen262
-\pgf@pt@y=\dimen263
-\pgf@pt@temp=\dimen264
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-quick.code.tex
-File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-objects.code.tex
-File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-pathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-arrows.code.tex
-File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen265
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-shade.code.tex
-File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen266
-\pgf@sys@shading@range@num=\count294
-\pgf@shadingcount=\count295
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-image.code.tex
-File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-external.code.tex
-File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box65
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-layers.code.tex
-File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-transparency.code.tex
-File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-patterns.code.tex
-File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-rdf.code.tex
-File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)))
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\xxcolor.st
-y
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
 Package: xxcolor 2003/10/24 ver 0.1
-\XC@nummixins=\count296
-\XC@countmixins=\count297
-) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
-Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
-package with kernel methods
-) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2023-05-16 v7.00y Hypertext links for LaTeX
+\XC@nummixins=\count283
+\XC@countmixins=\count284
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.
-sty
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.st
-y
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinek
-eys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.st
-y
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.
-sty
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2023-05-16 v2.51 Cross-referencing by name of section
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitl
-estring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-))
-\c@section@level=\count298
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen267
-\Hy@linkcounter=\count299
-\Hy@pagecounter=\count300
- (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2023-05-16 v7.00y Hyperref: PDFDocEncoding definition (HO)
+\@linkdim=\dimen257
+\Hy@linkcounter=\count285
+\Hy@pagecounter=\count286
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count301
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2023-05-16 v7.00y Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-Package hyperref Info: Option `bookmarks' set `true' on input line 4050.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 4050.
-Package hyperref Info: Option `implicit' set `false' on input line 4050.
-Package hyperref Info: Hyper figures OFF on input line 4167.
-Package hyperref Info: Link nesting OFF on input line 4172.
-Package hyperref Info: Hyper index ON on input line 4175.
-Package hyperref Info: Plain pages OFF on input line 4182.
-Package hyperref Info: Backreferencing OFF on input line 4187.
+\Hy@SavedSpaceFactor=\count287
+Package hyperref Info: Option `bookmarks' set `true' on input line 4338.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4338.
+Package hyperref Info: Option `implicit' set `false' on input line 4338.
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
-Package hyperref Info: Bookmarks ON on input line 4434.
-\c@Hy@tempcnt=\count302
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count288
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4772.
-\XeTeXLinkMargin=\dimen268
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen258
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.
-sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count303
-\Field@Width=\dimen269
-\Fld@charsize=\dimen270
-Package hyperref Info: Hyper figures OFF on input line 6051.
-Package hyperref Info: Link nesting OFF on input line 6056.
-Package hyperref Info: Hyper index ON on input line 6059.
-Package hyperref Info: backreferencing OFF on input line 6066.
-Package hyperref Info: Link coloring OFF on input line 6071.
-Package hyperref Info: Link coloring with OCG OFF on input line 6076.
-Package hyperref Info: PDF/A mode OFF on input line 6081.
-\Hy@abspage=\count304
+\Fld@menulength=\count289
+\Field@Width=\dimen259
+\Fld@charsize=\dimen260
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+\Hy@abspage=\count290
 
 
 Package hyperref Message: Stopped early.
 
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2023-05-16 v7.00y Hyperref driver for pdfTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
-kage
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
 with kernel methods
 )
-\Fld@listcount=\count305
-\c@bookmark@seq@number=\count306
+\Fld@listcount=\count291
+\c@bookmark@seq@number=\count292
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfile
-check.sty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqueco
-unter.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-85.
+86.
 ))
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaserequire
-s.sty
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecompati
-bility.sty)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasefont.st
-y (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecompatibility.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasefont.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks29
+\@emptytoks=\toks27
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\sansmatha
-ccent.sty
+(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
 Package: sansmathaccent 2020/01/31
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.sty
-Package: scrlfile 2023/04/24 v3.40 KOMA-Script package (file load hooks)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2020/09/21 v3.32 KOMA-Script package (file load hooks)
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-hoo
-k.sty
-Package: scrlfile-hook 2023/04/24 v3.40 KOMA-Script package (using LaTeX hooks)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2020/09/21 v3.32 KOMA-Script package (using LaTeX hooks)
 
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
-Package: scrlogo 2023/04/24 v3.40 KOMA-Script package (logo)
+LaTeX3 Info: Defining command \BeforeFile with sig. 'm' on line 61.
+
+
+LaTeX3 Info: Defining command \AfterFile with sig. 'm' on line 65.
+
+
+LaTeX3 Info: Defining command \BeforeClass with sig. 'm' on line 69.
+
+
+LaTeX3 Info: Defining command \BeforePackage with sig. 'm' on line 73.
+
+
+LaTeX3 Info: Defining command \AfterAtEndOfClass with sig. 'smo+m' on line 83.
+
+
+LaTeX3 Info: Defining command \AfterAtEndOfPackage with sig. 'smo+m' on line
+(LaTeX3)     93.
+
+
+LaTeX3 Info: Defining command \scrlfile@AfterClass with sig. 'smo+m' on line
+(LaTeX3)     173.
+
+
+LaTeX3 Info: Defining command \AfterClass with sig. '' on line 174.
+
+
+LaTeX3 Info: Defining command \scrlfile@AfterPackage with sig. 'smo+m' on line
+(LaTeX3)     191.
+
+
+LaTeX3 Info: Defining command \AfterPackage with sig. '' on line 192.
+
+
+LaTeX3 Info: Defining command \ReplaceInput with sig. '' on line 193.
+
+
+LaTeX3 Info: Defining command \ReplaceClass with sig. 'mm' on line 196.
+
+
+LaTeX3 Info: Defining command \ReplacePackage with sig. 'mm' on line 199.
+
+
+LaTeX3 Info: Defining command \UnReplaceInput with sig. '' on line 200.
+
+
+LaTeX3 Info: Defining command \UnReplaceClass with sig. 'm' on line 203.
+
+
+LaTeX3 Info: Defining command \UnReplacePackage with sig. 'mm' on line 206.
+
+
+LaTeX3 Info: Defining command \PreventPackageFromLoading with sig. 's+om' on
+(LaTeX3)     line 234.
+
+
+LaTeX3 Info: Defining command \StorePreventPackageFromLoading with sig. 'm' on
+(LaTeX3)     line 242.
+
+
+LaTeX3 Info: Defining command \ResetPreventPackageFromLoading with sig. '' on
+(LaTeX3)     line 247.
+
+
+LaTeX3 Info: Defining command \UnPreventPackageFromLoading with sig. 'sm' on
+(LaTeX3)     line 261.
+
+
+LaTeX3 Info: Defining command \BeforeClosingMainAux with sig. 'om' on line
+(LaTeX3)     274.
+
+
+LaTeX3 Info: Defining command \AfterReadingMainAux with sig. 'om' on line 287.
+
+
+LaTeX3 Info: Defining command \protected@immediate@write with sig. 'm+m+m' on
+(LaTeX3)     line 298.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2020/09/21 v3.32 KOMA-Script package (logo)
 )))))
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetransla
-tor.sty
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.st
-y
-Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
 ))
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemisc.st
-y)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetwoscre
-ens.sty)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseoverlay
-.sty
-\beamer@argscount=\count307
-\beamer@lastskipcover=\skip51
-\beamer@trivlistdepth=\count308
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemisc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+\beamer@argscount=\count293
+\beamer@lastskipcover=\skip50
+\beamer@trivlistdepth=\count294
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetitle.s
-ty)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasesection
-.sty
-\c@lecture=\count309
-\c@part=\count310
-\c@section=\count311
-\c@subsection=\count312
-\c@subsubsection=\count313
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetitle.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+\c@lecture=\count295
+\c@part=\count296
+\c@section=\count297
+\c@subsection=\count298
+\c@subsubsection=\count299
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframe.s
-ty
-\beamer@framebox=\box66
-\beamer@frametitlebox=\box67
-\beamer@zoombox=\box68
-\beamer@zoomcount=\count314
-\beamer@zoomframecount=\count315
-\beamer@frametextheight=\dimen271
-\c@subsectionslide=\count316
-\beamer@frametopskip=\skip52
-\beamer@framebottomskip=\skip53
-\beamer@frametopskipautobreak=\skip54
-\beamer@framebottomskipautobreak=\skip55
-\beamer@envbody=\toks30
-\framewidth=\dimen272
-\c@framenumber=\count317
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+\beamer@framebox=\box62
+\beamer@frametitlebox=\box63
+\beamer@zoombox=\box64
+\beamer@zoomcount=\count300
+\beamer@zoomframecount=\count301
+\beamer@frametextheight=\dimen261
+\c@subsectionslide=\count302
+\beamer@frametopskip=\skip51
+\beamer@framebottomskip=\skip52
+\beamer@frametopskipautobreak=\skip53
+\beamer@framebottomskipautobreak=\skip54
+\beamer@envbody=\toks28
+\framewidth=\dimen262
+\c@framenumber=\count303
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseverbati
-m.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
 \beamer@verbatimfileout=\write4
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframesi
-ze.sty
-\beamer@splitbox=\box69
-\beamer@autobreakcount=\count318
-\beamer@autobreaklastheight=\dimen273
-\beamer@frametitletoks=\toks31
-\beamer@framesubtitletoks=\toks32
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+\beamer@splitbox=\box65
+\beamer@autobreakcount=\count304
+\beamer@autobreaklastheight=\dimen263
+\beamer@frametitletoks=\toks29
+\beamer@framesubtitletoks=\toks30
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframeco
-mponents.sty
-\beamer@footins=\box70
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.sty
+\beamer@footins=\box66
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecolor.s
-ty)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenotes.s
-ty
-\beamer@frameboxcopy=\box71
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+\beamer@frameboxcopy=\box67
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetoc.sty
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetemplat
-es.sty
-\beamer@sbttoks=\toks33
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetoc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+\beamer@sbttoks=\toks31
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseauxtemp
-lates.sty
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseboxes.s
-ty
-\bmb@box=\box72
-\bmb@colorbox=\box73
-\bmb@boxwidth=\dimen274
-\bmb@boxheight=\dimen275
-\bmb@prevheight=\dimen276
-\bmb@temp=\dimen277
-\bmb@dima=\dimen278
-\bmb@dimb=\dimen279
-\bmb@prevheight=\dimen280
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+\bmb@box=\box68
+\bmb@colorbox=\box69
+\bmb@boxwidth=\dimen264
+\bmb@boxheight=\dimen265
+\bmb@prevheight=\dimen266
+\bmb@temp=\dimen267
+\bmb@dima=\dimen268
+\bmb@dimb=\dimen269
+\bmb@prevheight=\dimen270
 )
-\beamer@blockheadheight=\dimen281
+\beamer@blockheadheight=\dimen271
 ))
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaselocalst
-ructure.sty
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks34
+\@enLab=\toks32
 )
-\beamer@bibiconwidth=\skip56
-\c@figure=\count319
-\c@table=\count320
-\abovecaptionskip=\skip57
-\belowcaptionskip=\skip58
+\c@figure=\count305
+\c@table=\count306
+\abovecaptionskip=\skip55
+\belowcaptionskip=\skip56
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenavigat
-ion.sty
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenavigat
-ionsymbols.tex)
-\beamer@section@min@dim=\dimen282
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
+\beamer@section@min@dim=\dimen272
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetheorem
-s.sty
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2023/05/13 v2.17o AMS math features
-\@mathmargin=\skip59
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip57
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
-Package: amstext 2021/08/26 v2.01 AMS text
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks35
-\ex@=\dimen283
+\@emptytoks=\toks33
+\ex@=\dimen273
 ))
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen284
+\pmbraise@=\dimen274
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
-Package: amsopn 2022/04/08 v2.04 operator names
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count321
+\inf@bad=\count307
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count322
-\leftroot@=\count323
+\uproot@=\count308
+\leftroot@=\count309
 LaTeX Info: Redefining \overline on input line 399.
-LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count324
-\DOTSCASE@=\count325
+\classnum@=\count310
+\DOTSCASE@=\count311
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box74
-\strutbox@=\box75
-LaTeX Info: Redefining \big on input line 722.
-LaTeX Info: Redefining \Big on input line 723.
-LaTeX Info: Redefining \bigg on input line 724.
-LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen285
+\Mathstrutbox@=\box70
+\strutbox@=\box71
+\big@size=\dimen275
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count326
-LaTeX Info: Redefining \bmod on input line 905.
-LaTeX Info: Redefining \pmod on input line 910.
-LaTeX Info: Redefining \smash on input line 940.
-LaTeX Info: Redefining \relbar on input line 970.
-LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count327
+\macc@depth=\count312
+\c@MaxMatrixCols=\count313
 \dotsspace@=\muskip17
-\c@parentequation=\count328
-\dspbrk@lvl=\count329
-\tag@help=\toks36
-\row@=\count330
-\column@=\count331
-\maxfields@=\count332
-\andhelp@=\toks37
-\eqnshift@=\dimen286
-\alignsep@=\dimen287
-\tagshift@=\dimen288
-\tagwidth@=\dimen289
-\totwidth@=\dimen290
-\lineht@=\dimen291
-\@envbody=\toks38
-\multlinegap=\skip60
-\multlinetaggap=\skip61
-\mathdisplay@stack=\toks39
-LaTeX Info: Redefining \[ on input line 2953.
-LaTeX Info: Redefining \] on input line 2954.
+\c@parentequation=\count314
+\dspbrk@lvl=\count315
+\tag@help=\toks34
+\row@=\count316
+\column@=\count317
+\maxfields@=\count318
+\andhelp@=\toks35
+\eqnshift@=\dimen276
+\alignsep@=\dimen277
+\tagshift@=\dimen278
+\tagwidth@=\dimen279
+\totwidth@=\dimen280
+\lineht@=\dimen281
+\@envbody=\toks36
+\multlinegap=\skip58
+\multlinetaggap=\skip59
+\mathdisplay@stack=\toks37
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks40
-\thm@bodyfont=\toks41
-\thm@headfont=\toks42
-\thm@notefont=\toks43
-\thm@headpunct=\toks44
-\thm@preskip=\skip62
-\thm@postskip=\skip63
-\thm@headsep=\skip64
-\dth@everypar=\toks45
+\thm@style=\toks38
+\thm@bodyfont=\toks39
+\thm@headfont=\toks40
+\thm@notefont=\toks41
+\thm@headpunct=\toks42
+\thm@preskip=\skip60
+\thm@postskip=\skip61
+\thm@headsep=\skip62
+\dth@everypar=\toks43
 )
-\c@theorem=\count333
+\c@theorem=\count319
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasethemes.
-sty))
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemedefaul
-t.sty
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemede
-fault.sty)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthemed
-efault.sty)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnerthemed
-efault.sty
-\beamer@dima=\dimen292
-\beamer@dimb=\dimen293
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasethemes.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemedefault.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
+\beamer@dima=\dimen282
+\beamer@dimb=\dimen283
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthemed
-efault.sty)))
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/ctex\ctex.sty
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2023-06-16 L3 programming layer (loader) 
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
-ex.def
-File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count334
-\l__pdf_internal_box=\box76
-))
-Package: ctex 2022/07/14 v2.5.10 Chinese adapter in LaTeX (CTEX)
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/ctex\ctexhook.sty
-Package: ctexhook 2022/07/14 v2.5.10 Document and package hooks (CTEX)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/ctex\ctexpatch.sty
-Package: ctexpatch 2022/07/14 v2.5.10 Patching commands (CTEX)
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\fix-cm.sty
-Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1enc.def
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
-))
-\l__ctex_tmp_int=\count335
-\l__ctex_tmp_box=\box77
-\l__ctex_tmp_dim=\dimen294
-\g__ctex_section_depth_int=\count336
-\g__ctex_font_size_int=\count337
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/ctex/config\ctexopts.cfg
-File: ctexopts.cfg 2022/07/14 v2.5.10 Option configuration file (CTEX)
-)
-
-Package ctex Warning: UTF8 will be used as the default encoding.
-
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/ctex/engine\ctex-engine-
-pdftex.def
-File: ctex-engine-pdftex.def 2022/07/14 v2.5.10 (pdf)LaTeX adapter (CTEX)
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/cjk\CJKutf8.sty
-Package: CJKutf8 2021/10/16 4.8.5
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
-Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks46
-\inpenc@posthook=\toks47
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/cjk\CJK.sty
-Package: CJK 2021/10/16 4.8.5
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/cjk/mule\MULEenc.sty
-Package: MULEenc 2021/10/16 4.8.5
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/cjk\CJK.enc
-File: CJK.enc 2021/10/16 4.8.5
-Now handling font encoding C00 ...
-... no UTF-8 mapping file for font encoding C00
-Now handling font encoding C05 ...
-... no UTF-8 mapping file for font encoding C05
-Now handling font encoding C09 ...
-... no UTF-8 mapping file for font encoding C09
-Now handling font encoding C10 ...
-... no UTF-8 mapping file for font encoding C10
-Now handling font encoding C20 ...
-... no UTF-8 mapping file for font encoding C20
-Now handling font encoding C19 ...
-... no UTF-8 mapping file for font encoding C19
-Now handling font encoding C40 ...
-... no UTF-8 mapping file for font encoding C40
-Now handling font encoding C42 ...
-... no UTF-8 mapping file for font encoding C42
-Now handling font encoding C43 ...
-... no UTF-8 mapping file for font encoding C43
-Now handling font encoding C50 ...
-... no UTF-8 mapping file for font encoding C50
-Now handling font encoding C52 ...
-... no UTF-8 mapping file for font encoding C52
-Now handling font encoding C49 ...
-... no UTF-8 mapping file for font encoding C49
-Now handling font encoding C60 ...
-... no UTF-8 mapping file for font encoding C60
-Now handling font encoding C61 ...
-... no UTF-8 mapping file for font encoding C61
-Now handling font encoding C63 ...
-... no UTF-8 mapping file for font encoding C63
-Now handling font encoding C64 ...
-... no UTF-8 mapping file for font encoding C64
-Now handling font encoding C65 ...
-... no UTF-8 mapping file for font encoding C65
-Now handling font encoding C70 ...
-... no UTF-8 mapping file for font encoding C70
-Now handling font encoding C31 ...
-... no UTF-8 mapping file for font encoding C31
-Now handling font encoding C32 ...
-... no UTF-8 mapping file for font encoding C32
-Now handling font encoding C33 ...
-... no UTF-8 mapping file for font encoding C33
-Now handling font encoding C34 ...
-... no UTF-8 mapping file for font encoding C34
-Now handling font encoding C35 ...
-... no UTF-8 mapping file for font encoding C35
-Now handling font encoding C36 ...
-... no UTF-8 mapping file for font encoding C36
-Now handling font encoding C37 ...
-... no UTF-8 mapping file for font encoding C37
-Now handling font encoding C80 ...
-... no UTF-8 mapping file for font encoding C80
-Now handling font encoding C81 ...
-... no UTF-8 mapping file for font encoding C81
-Now handling font encoding C01 ...
-... no UTF-8 mapping file for font encoding C01
-Now handling font encoding C11 ...
-... no UTF-8 mapping file for font encoding C11
-Now handling font encoding C21 ...
-... no UTF-8 mapping file for font encoding C21
-Now handling font encoding C41 ...
-... no UTF-8 mapping file for font encoding C41
-Now handling font encoding C62 ...
-... no UTF-8 mapping file for font encoding C62
-)
-\CJK@indent=\box78
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-))
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/cjkpunct\CJKpunct.sty
-Package: CJKpunct 2016/05/14 4.8.4
-\CJKpunct@cnta=\count338
-\CJKpunct@cntb=\count339
-\CJKpunct@cntc=\count340
-\CJKpunct@cntd=\count341
-\CJKpunct@cnte=\count342
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2026 (decimal 8230)
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/cjkpunct\CJKpunct.spa))
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/cjk\CJKspace.sty
-Package: CJKspace 2021/10/16 3.8.0
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/cjk/UTF8\UTF8.bdg
-File: UTF8.bdg 2021/10/16 4.8.5
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/ctex\ctexspa.def
-File: ctexspa.def 2022/07/14 v2.5.10 Space info for CJKpunct (CTEX)
-)
-
-Package hyperref Warning: Option `driverfallback' has already been used,
-(hyperref)                setting the option has no effect on input line 493.
-
-Package hyperref Info: Option `unicode' set `true' on input line 512.
-\ccwd=\dimen295
-\l__ctex_ccglue_skip=\skip65
-)
-\l__ctex_ziju_dim=\dimen296
- (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/zhnumber\zhnumber.sty
-Package: zhnumber 2022/07/14 v3.0 Typesetting numbers with Chinese glyphs
-\l__zhnum_scale_int=\count343
-\l__zhnum_tmp_int=\count344
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/zhnumber\zhnumber-utf8.c
-fg
-File: zhnumber-utf8.cfg 2022/07/14 v3.0 Chinese numerals with UTF8 encoding
-))
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/ctex/scheme\ctex-scheme-
-chinese.def
-File: ctex-scheme-chinese.def 2022/07/14 v2.5.10 Chinese scheme for generic (CT
-EX)
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/ctex/config\ctex-name-ut
-f8.cfg
-File: ctex-name-utf8.cfg 2022/07/14 v2.5.10 Caption with encoding UTF-8 (CTEX)
-))
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/ctex/fontset\ctex-fontse
-t-windows.def
-File: ctex-fontset-windows.def 2022/07/14 v2.5.10 Windows fonts definition (CTE
-X)
-))
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/ctex/config\ctex.cfg
-File: ctex.cfg 2022/07/14 v2.5.10 Configuration file (CTEX)
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
+(/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count345
-\lst@gtempboxa=\box79
-\lst@token=\toks48
-\lst@length=\count346
-\lst@currlwidth=\dimen297
-\lst@column=\count347
-\lst@pos=\count348
-\lst@lostspace=\dimen298
-\lst@width=\dimen299
-\lst@newlines=\count349
-\lst@lineno=\count350
-\lst@maxwidth=\dimen300
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count351
-\lst@skipnumbers=\count352
-\lst@framebox=\box80
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
-File: listings.cfg 2023/02/27 1.9 listings configuration
-))
-Package: listings 2023/02/27 1.9 (Carsten Heinz)
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
+(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemese
-rif.sty)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
-Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
-\c@tracingmulticols=\count353
-\mult@box=\box81
-\multicol@leftmargin=\dimen301
-\c@unbalance=\count354
-\c@collectmore=\count355
-\doublecol@number=\count356
-\multicoltolerance=\count357
-\multicolpretolerance=\count358
-\full@width=\dimen302
-\page@free=\dimen303
-\premulticols=\dimen304
-\postmulticols=\dimen305
-\multicolsep=\skip66
-\multicolbaselineskip=\skip67
-\partial@page=\box82
-\last@line=\box83
-\mc@boxedresult=\box84
-\maxbalancingoverflow=\dimen306
-\mult@rightbox=\box85
-\mult@grightbox=\box86
-\mult@firstbox=\box87
-\mult@gfirstbox=\box88
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count320
+\mult@box=\box72
+\multicol@leftmargin=\dimen284
+\c@unbalance=\count321
+\c@collectmore=\count322
+\doublecol@number=\count323
+\multicoltolerance=\count324
+\multicolpretolerance=\count325
+\full@width=\dimen285
+\page@free=\dimen286
+\premulticols=\dimen287
+\postmulticols=\dimen288
+\multicolsep=\skip63
+\multicolbaselineskip=\skip64
+\partial@page=\box73
+\last@line=\box74
+\maxbalancingoverflow=\dimen289
+\mult@rightbox=\box75
+\mult@grightbox=\box76
+\mult@gfirstbox=\box77
+\mult@firstbox=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
 \@tempa=\box89
 \@tempa=\box90
 \@tempa=\box91
@@ -1041,309 +815,206 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \@tempa=\box113
 \@tempa=\box114
 \@tempa=\box115
-\@tempa=\box116
-\@tempa=\box117
-\@tempa=\box118
-\@tempa=\box119
-\@tempa=\box120
-\@tempa=\box121
-\@tempa=\box122
-\@tempa=\box123
-\@tempa=\box124
-\c@minrows=\count359
-\c@columnbadness=\count360
-\c@finalcolumnbadness=\count361
-\last@try=\dimen307
-\multicolovershoot=\dimen308
-\multicolundershoot=\dimen309
-\mult@nat@firstbox=\box125
-\colbreak@box=\box126
-\mc@col@check@num=\count362
+\c@minrows=\count326
+\c@columnbadness=\count327
+\c@finalcolumnbadness=\count328
+\last@try=\dimen290
+\multicolovershoot=\dimen291
+\multicolundershoot=\dimen292
+\mult@nat@firstbox=\box116
+\colbreak@box=\box117
+\mc@col@check@num=\count329
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen310
-\lightrulewidth=\dimen311
-\cmidrulewidth=\dimen312
-\belowrulesep=\dimen313
-\belowbottomsep=\dimen314
-\aboverulesep=\dimen315
-\abovetopsep=\dimen316
-\cmidrulesep=\dimen317
-\cmidrulekern=\dimen318
-\defaultaddspace=\dimen319
-\@cmidla=\count363
-\@cmidlb=\count364
-\@aboverulesep=\dimen320
-\@belowrulesep=\dimen321
-\@thisruleclass=\count365
-\@lastruleclass=\count366
-\@thisrulewidth=\dimen322
+\heavyrulewidth=\dimen293
+\lightrulewidth=\dimen294
+\cmidrulewidth=\dimen295
+\belowrulesep=\dimen296
+\belowbottomsep=\dimen297
+\aboverulesep=\dimen298
+\abovetopsep=\dimen299
+\cmidrulesep=\dimen300
+\cmidrulekern=\dimen301
+\defaultaddspace=\dimen302
+\@cmidla=\count330
+\@cmidlb=\count331
+\@aboverulesep=\dimen303
+\@belowrulesep=\dimen304
+\@thisruleclass=\count332
+\@lastruleclass=\count333
+\@thisrulewidth=\dimen305
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/fundus-calligra\calligra
-.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fundus-calligra/calligra.sty
 Package: calligra 2012/04/10 v1.9 LaTeX package calligra
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/pstricks\pstricks.sty
-Package: pstricks 2022/19/23 v0.72 LaTeX wrapper for `PSTricks' (RN,HV)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\pst-xkey.tex
-File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
-Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks49
-\XKV@tempa@toks=\toks50
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box118
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-\XKV@depth=\count367
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen306
+\pgf@nodesepend=\dimen307
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen308
+\pgffor@skip=\dimen309
+\pgffor@stack=\toks44
+\pgffor@toks=\toks45
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count334
+\pgfplotmarksize=\dimen310
+)
+\tikz@lastx=\dimen311
+\tikz@lasty=\dimen312
+\tikz@lastxsaved=\dimen313
+\tikz@lastysaved=\dimen314
+\tikz@lastmovetox=\dimen315
+\tikz@lastmovetoy=\dimen316
+\tikzleveldistance=\dimen317
+\tikzsiblingdistance=\dimen318
+\tikz@figbox=\box119
+\tikz@figbox@bg=\box120
+\tikz@tempbox=\box121
+\tikz@tempbox@bg=\box122
+\tikztreelevel=\count335
+\tikznumberofchildren=\count336
+\tikznumberofcurrentchild=\count337
+\tikz@fig@count=\count338
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count339
+\pgfmatrixcurrentcolumn=\count340
+\pgf@matrix@numberofcolumns=\count341
+)
+\tikz@expandcount=\count342
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pstricks.tex
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pst-fp.tex
-`pst-fp' v0.06, 2020/11/20 (hv)
-\pstFP@xs=\count368
-\pstFP@xia=\count369
-\pstFP@xib=\count370
-\pstFP@xfa=\count371
-\pstFP@xfb=\count372
-\pstFP@rega=\count373
-\pstFP@regb=\count374
-\pstFP@regs=\count375
-\pstFP@times=\count376
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count343
+\lst@gtempboxa=\box123
+\lst@token=\toks46
+\lst@length=\count344
+\lst@currlwidth=\dimen319
+\lst@column=\count345
+\lst@pos=\count346
+\lst@lostspace=\dimen320
+\lst@width=\dimen321
+\lst@newlines=\count347
+\lst@lineno=\count348
+\lst@maxwidth=\dimen322
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count349
+\lst@skipnumbers=\count350
+\lst@framebox=\box124
 )
-\psLoopIndex=\count377
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
-`PSTricks' v3.19  <2023/04/30> (tvz,hv)
-\pst@dima=\dimen323
-\pst@dimb=\dimen324
-\pst@dimc=\dimen325
-\pst@dimd=\dimen326
-\pst@dimg=\dimen327
-\pst@dimh=\dimen328
-\pst@dimm=\dimen329
-\pst@dimn=\dimen330
-\pst@dimo=\dimen331
-\pst@dimp=\dimen332
-\pst@hbox=\box127
-\pst@ibox=\box128
-\pst@boxg=\box129
-\pst@cnta=\count378
-\pst@cntb=\count379
-\pst@cntc=\count380
-\pst@cntd=\count381
-\pst@cntg=\count382
-\pst@cnth=\count383
-\pst@cntm=\count384
-\pst@cntn=\count385
-\pst@cnto=\count386
-\pst@cntp=\count387
-\@zero=\count388
-\pst@toks=\toks51
---- We are running latex or xelatex ---
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pstricks.con)
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pstricks-colo
-r.tex)
-\psunit=\dimen333
-\psxunit=\dimen334
-\psyunit=\dimen335
-\pst@C@@rType=\count389
-\pslinewidth=\dimen336
-\psk@startLW=\dimen337
-\psk@endLW=\dimen338
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pstricks-arro
-ws.tex
-\pshooklength=\dimen339
-\pshookwidth=\dimen340
-)
-\pst@customdefs=\toks52
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pstricks-dots
-.tex)
-\pslinearc=\dimen341
-\pst@symbolStep=\dimen342
-\pst@symbolWidth=\dimen343
-\pst@symbolLinewidth=\dimen344
-\everypsbox=\toks53
-\psframesep=\dimen345
-\pslabelsep=\dimen346
-\sh@wgridXunit=\dimen347
-\sh@wgridYunit=\dimen348
-\pst@shift=\dimen349
-\ps@imagectr=\count390
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pstricks.con)
-)
-File: pstricks.tex 2023/04/30 v3.19 `PSTricks' (tvz,hv)
- (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pst-fp.tex
-`pst-fp' v0.06, 2020/11/20 (hv))
-File: pst-fp.tex 2020/11/20 v0.06 `PST-fp' (hv)
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/stackengine\stackengine.
-sty
-Package: stackengine 2021/07/22 v4.11\ Stacking text and objects in convenient 
+(/usr/share/texlive/texmf-dist/tex/latex/stackengine/stackengine.sty
+Package: stackengine 2017/02/13 v4.01\ Stacking text and objects in convenient 
 ways
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/listofitems\listofitems.
-sty
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/listofitems\listofitem
-s.tex
-\loi_cnt_foreach_nest=\count391
-\loi_nestcnt=\count392
+(/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.sty
+(/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.tex
+\loi_cnt_foreach_nest=\count351
+\loi_nestcnt=\count352
 )
 Package: listofitems 2019/08/21 v1.63 Grab items in lists using user-specified 
 sep char (CT)
-) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count393
-\calc@Bcount=\count394
-\calc@Adimen=\dimen350
-\calc@Bdimen=\dimen351
-\calc@Askip=\skip68
-\calc@Bskip=\skip69
+\calc@Acount=\count353
+\calc@Bcount=\count354
+\calc@Adimen=\dimen323
+\calc@Bdimen=\dimen324
+\calc@Askip=\skip65
+\calc@Bskip=\skip66
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count395
-\calc@Cskip=\skip70
+\calc@Ccount=\count355
+\calc@Cskip=\skip67
 )
-\c@@stackindex=\count396
-\@boxshift=\skip71
-\stack@tmplength=\skip72
-\temp@stkl=\skip73
-\@stackedboxwidth=\skip74
-\@addedbox=\box130
-\@anchorbox=\box131
-\@insetbox=\box132
-\se@backgroundbox=\box133
-\stackedbox=\box134
-\@centerbox=\box135
-\c@ROWcellindex@=\count397
-) (NJFU.sty
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthemes
-moothbars.sty)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnerthemer
-ounded.sty)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnerthemec
-ircles.sty))
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 47.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\smaller ' on input line 47.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\smaller ' on input line 47.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 47.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\smaller ' on input line 47.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\smaller ' on input line 47.
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/cjk/UTF8\UTF8.enc
-File: UTF8.enc 2021/10/16 4.8.5
+\c@@stackindex=\count356
+\@boxshift=\skip68
+\stack@tmplength=\skip69
+\temp@stkl=\skip70
+\@stackedboxwidth=\skip71
+\@addedbox=\box125
+\@anchorbox=\box126
+\stackedbox=\box127
+\@centerbox=\box128
+\c@ROWcellindex@=\count357
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/cjk/UTF8\UTF8.chr
-File: UTF8.chr 2021/10/16 4.8.5
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(slide.aux)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (./NJFU.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemesmoothbars.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemecircles.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count358
+\l__pdf_internal_box=\box129
+)
+(./slide.aux)
 \openout1 = `slide.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1379,1454 +1050,1576 @@ LaTeX Font Info:    ... okay on input line 47.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
-i
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count398
-\scratchdimen=\dimen352
-\scratchbox=\box136
-\nofMPsegments=\count399
-\nofMParguments=\count400
-\everyMPshowfont=\toks54
-\MPscratchCnt=\count401
-\MPscratchDim=\dimen353
-\MPnumerator=\count402
-\makeMPintoPDFobject=\count403
-\everyMPtoPDFconversion=\toks55
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
-se.sty
+\scratchcounter=\count359
+\scratchdimen=\dimen325
+\scratchbox=\box130
+\nofMPsegments=\count360
+\nofMParguments=\count361
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count362
+\MPscratchDim=\dimen326
+\MPnumerator=\count363
+\makeMPintoPDFobject=\count364
+\everyMPtoPDFconversion=\toks48
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cf
-g
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
 ))
-Package hyperref Info: Link coloring OFF on input line 47.
- (slide.out) (slide.out)
+Package hyperref Info: Link coloring OFF on input line 46.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count365
+)
+LaTeX Info: Redefining \ref on input line 46.
+LaTeX Info: Redefining \pageref on input line 46.
+LaTeX Info: Redefining \nameref on input line 46.
+
+(./slide.out) (./slide.out)
 \@outlinefile=\write5
 \openout5 = `slide.out'.
 
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-ba
-sic-dictionary-English.dict
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
+-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-bi
-bliography-dictionary-English.dict
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-bibliography-dic
+tionary-English.dict
 Dictionary: translator-bibliography-dictionary, Language: English 
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-en
-vironment-dictionary-English.dict
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-environment-dict
+ionary-English.dict
 Dictionary: translator-environment-dictionary, Language: English 
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-mo
-nths-dictionary-English.dict
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-months-dictionar
+y-English.dict
 Dictionary: translator-months-dictionary, Language: English 
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-nu
-mbers-dictionary-English.dict
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-numbers-dictiona
+ry-English.dict
 Dictionary: translator-numbers-dictionary, Language: English 
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-th
-eorem-dictionary-English.dict
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictiona
+ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/ctex/dictionary\translat
-or-theorem-dictionary-ChineseUTF8.dict
-Dictionary: translator-theorem-dictionary, Language: ChineseUTF8 2022/07/14 v2.
-5.10 Chinese translation for theorem name (CTEX)
-)
-\c@lstlisting=\count404
- (slide.nav)
-Overfull \hbox (266.51134pt too wide) detected at line 47
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+\c@lstlisting=\count366
+ (./slide.nav)
+Overfull \hbox (253.57713pt too wide) detected at line 46
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
+ []
+
+<fig/logo.png, id=245, 177.66376pt x 285.065pt>
+File: fig/logo.png Graphic file (type png)
+<use fig/logo.png>
+Package pdftex.def Info: fig/logo.png  used on input line 81.
+(pdftex.def)             Requested size: 61.45703pt x 98.6085pt.
+
+Overfull \vbox (26.90388pt too high) detected at line 81
  []
 
 
-Overfull \hbox (266.51134pt too wide) detected at line 67
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
-Package epstopdf Info: Source file: <fig/logo.eps>
-(epstopdf)                    date: 2023-06-26 11:20:16
-(epstopdf)                    size: 52741 bytes
-(epstopdf)             Output file: <fig/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-06-26 11:27:27
-(epstopdf)                    size: 17556 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=fig/logo-eps-convert
-ed-to.pdf fig/logo.eps>
-(epstopdf)             \includegraphics on input line 67.
-Package epstopdf Info: Output file is already uptodate.
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-
-pdfTeX warning: pdflatex.exe (file ./fig/logo-eps-converted-to.pdf): PDF inclus
-ion: found PDF version <1.7>, but at most version <1.5> allowed
-<fig/logo-eps-converted-to.pdf, id=392, 174.6525pt x 281.05pt>
-File: fig/logo-eps-converted-to.pdf Graphic file (type pdf)
-<use fig/logo-eps-converted-to.pdf>
-Package pdftex.def Info: fig/logo-eps-converted-to.pdf  used on input line 67.
-(pdftex.def)             Requested size: 61.45703pt x 98.89644pt.
-
-Overfull \vbox (27.76923pt too high) detected at line 67
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/ctex/zhmap\ctex-zhmap-
-windows.tex
-File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdf
-TeX and DVIPDFMx (CTEX)
-{C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{UGBK.sfd}{Unic
-ode.sfd}) [1
-Non-PDF special ignored!
-<special> header=pstricks.pro
-Non-PDF special ignored!
-<special> header=pst-algparser.pro
-Non-PDF special ignored!
-<special> header=pst-tools.pro
-Non-PDF special ignored!
-<special> header=pst-dots.pro
-
-Non-PDF special ignored!
-<special> ps: /pssetRGBcolor /setrgbcolor load def /pssetCMYKcolor /setcmyk...
-Non-PDF special ignored!
-<special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
-Non-PDF special ignored!
-<special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
- <./fig/logo-eps-converted-to.pdf>]
-Overfull \hbox (266.51134pt too wide) detected at line 73
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc
-Overfull \hbox (5.98584pt too wide) in paragraph at lines 4--4
- []\T1/cmss/m/n/10.95 textquestiondown 
- []
-
-)
-Overfull \vbox (59.47751pt too high) detected at line 73
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+ <./fig/logo.png>]
+(./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [2
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 75
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \vbox (295.7065pt too high) detected at line 75
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [3
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 77
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc
-Overfull \hbox (5.98584pt too wide) in paragraph at lines 4--4
- []\T1/cmss/m/n/10.95 textquestiondown 
- []
-
-)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [4
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 81
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
+LaTeX Font Info:    Trying to load font information for U+msa on input line 103
+.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 103
+.
 
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 10
+3.
 
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [5
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 83
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc
-Overfull \hbox (5.98584pt too wide) in paragraph at lines 4--4
- []\T1/cmss/m/n/10.95 textquestiondown 
- []
-
-)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [6
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 91
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 91.
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 91.
-
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [7
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 93
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc
-Overfull \hbox (5.98584pt too wide) in paragraph at lines 4--4
- []\T1/cmss/m/n/10.95 textquestiondown 
- []
-
-)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [8
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 98
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [9
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 100
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \vbox (268.50648pt too high) detected at line 100
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [10
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 102
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [11
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 106
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [12
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 110
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [13
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 112
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [14
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 123
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [15
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 132
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [16
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 141
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [17
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 151
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [18
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 159
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [19
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 168
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [20
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 181
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-LaTeX Font Info:    Font shape `T1/cmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/cmss/m/sl' tried instead on input line 181.
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [21
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 189
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [22
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 198
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [23
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 207
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [24
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 209
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \vbox (254.90648pt too high) detected at line 209
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [25
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 211
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [26
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 213
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \vbox (268.50648pt too high) detected at line 213
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [27
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 215
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [28
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 226
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [29
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 228
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [30
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 238
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [31
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 240
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \vbox (295.7065pt too high) detected at line 240
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [32
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 242
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [33
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 251
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [34
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 253
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [35
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 257
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [36
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 261
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [37
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 265
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [38
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 267
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [39
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 275
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [40
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 277
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [41
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 284
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [42
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 286
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \vbox (295.7065pt too high) detected at line 286
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [43
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 288
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [44
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 296
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [45
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 298
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [46
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 307
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [47
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 310
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [48
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 319
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [49
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 321
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
+! Undefined control sequence.
+<argument> \pgf@matrix@last@nextcell@options 
+                                             
+l.397 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-(slide.toc)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+! Undefined control sequence.
+<argument> \pgf@matrix@last@nextcell@options 
+                                             
+l.397 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 1 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+! Undefined control sequence.
+<argument> \pgf@matrix@last@nextcell@options 
+                                             
+l.397 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \pgf@matrix@last@nextcell@options 
+                                             
+l.397 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no | in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no | in font nullfont!
+Missing character: There is no 1 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+! Undefined control sequence.
+<argument> \pgf@matrix@last@nextcell@options 
+                                             
+l.397 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \pgf@matrix@last@nextcell@options 
+                                             
+l.397 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no | in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no | in font nullfont!
+Missing character: There is no 0 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no 0 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no | in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no | in font nullfont!
+Missing character: There is no 1 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no | in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no | in font nullfont!
+Missing character: There is no 0 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no 0 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no | in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no | in font nullfont!
+Missing character: There is no 1 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no | in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no | in font nullfont!
+Missing character: There is no 1 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no 0 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no 1 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no 0 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no 0 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no 1 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no 0 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no 1 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no 0 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no 0 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no 1 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no 0 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no 0 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+! Undefined control sequence.
+<argument> \pgf@matrix@last@nextcell@options 
+                                             
+l.397 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \pgf@matrix@last@nextcell@options 
+                                             
+l.397 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 0 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no 1 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no 0 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+! Undefined control sequence.
+<argument> \pgf@matrix@last@nextcell@options 
+                                             
+l.397 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \pgf@matrix@last@nextcell@options 
+                                             
+l.397 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 4 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+! Undefined control sequence.
+<argument> \pgf@matrix@last@nextcell@options 
+                                             
+l.397 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \pgf@matrix@last@nextcell@options 
+                                             
+l.397 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no | in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no | in font nullfont!
+Missing character: There is no 4 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no 2 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no 3 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no 2 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no 4 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no 3 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no 1 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no 3 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+Missing character: There is no 1 in font nullfont!
+
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+
+! Package pgf Error: No shape named `mtr-1-6' is known.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+
+! Package pgf Error: No shape named `mtr-3-6' is known.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+
+! Package pgf Error: No shape named `K-1-3' is known.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+
+! Package pgf Error: No shape named `ret-1-4' is known.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+
+! Package pgf Error: No shape named `K-3-3' is known.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+
+! Package pgf Error: No shape named `ret-1-4' is known.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+
+! Package pgf Error: No shape named `mtr-1-5' is known.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+
+! Package pgf Error: No shape named `mtr-1-6' is known.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+
+! Package pgf Error: No shape named `mtr-2-5' is known.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+
+! Package pgf Error: No shape named `mtr-2-6' is known.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+
+! Package pgf Error: No shape named `mtr-3-5' is known.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+
+! Package pgf Error: No shape named `mtr-3-6' is known.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \end{frame}
+                 
+(That was another \errmessage.)
+
+
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [50
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 331
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [51
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 333
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \vbox (268.50648pt too high) detected at line 333
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [52
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 335
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [53
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 343
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [54
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 345
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [55
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 354
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [56
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 356
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \vbox (254.90648pt too high) detected at line 356
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [57
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 357
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [58
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 359
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \vbox (254.90648pt too high) detected at line 359
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [59
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 360
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [60
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 362
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \vbox (254.90648pt too high) detected at line 362
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [61
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 363
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [62
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 365
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \vbox (254.90648pt too high) detected at line 365
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [63
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 366
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [64
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 368
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \vbox (254.90648pt too high) detected at line 368
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [65
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 369
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [66
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 371
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \vbox (254.90648pt too high) detected at line 371
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+] (./slide.toc)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [67
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 372
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
+] (./slide.bbl
 
-(slide.toc)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+LaTeX Font Warning: Font shape `T1/cmss/m/sc' undefined
+(Font)              using `T1/cmss/m/n' instead on input line 4.
+
+)
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [68
 
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 374
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \vbox (254.90648pt too high) detected at line 374
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [69
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 375
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
 
-(slide.toc)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+]
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [70
 
+
 ]
-Overfull \hbox (266.51134pt too wide) detected at line 377
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \vbox (254.90648pt too high) detected at line 377
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [71
 
-]
-Overfull \hbox (266.51134pt too wide) detected at line 378
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
 
-(slide.toc)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
+]
+LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
+(Font)              scaled to size 35.82726pt on input line 436.
+
+Overfull \hbox (253.57713pt too wide) has occurred while \output is active
+  [] [][][][][] [][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][][][
+][][][][][] [][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [][][] [][]
+[] [][][] [][][] [][][][][][][]  
  []
 
 [72
-
-]
-Overfull \hbox (266.51134pt too wide) detected at line 380
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \vbox (241.30647pt too high) detected at line 380
- []
-
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-[73
-
-]
-Overfull \hbox (266.51134pt too wide) detected at line 387
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.bbl
-
-LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <10.95> not available
-(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 4.
-
-)
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-[74
-
-]
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-[75
-
-
-]
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-[76
-
-
-]
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-[77
-
-
-]
-Overfull \hbox (266.51134pt too wide) detected at line 393
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 35.82726pt on input line 393.
-
-Overfull \hbox (266.51134pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][][][][][][][][][][] [][][] [][][][][][] [][]
-[][][][][][][][][][] [][][][][][][][][][] [][][][][][] [][][] [][][] [][][] [][
-][] [][][] [][][] [][][] [][][] [][][][][][][]  
- []
-
-[78
 
 ]
 \tf@nav=\write6
@@ -2838,41 +2631,39 @@ Overfull \hbox (266.51134pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `slide.snm'.
 
- (slide.aux)
- ***********
-LaTeX2e <2023-06-01> patch level 1
-L3 programming layer <2022/07/14>
- ***********
+ (./slide.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `slide.out' has not changed.
-(rerunfilecheck)             Checksum: B1E6278E3AD9CA40E6F6D46B5D5CA63B;5204.
+(rerunfilecheck)             Checksum: EF2971203868130F1F83E9B1EB365BA3;1833.
  ) 
 Here is how much of TeX's memory you used:
- 29782 strings out of 476037
- 568578 string characters out of 5780317
- 1924763 words of memory out of 5000000
- 49565 multiletter control sequences out of 15000+600000
- 530631 words of font info for 73 fonts, out of 8000000 for 9000
+ 24686 strings out of 479304
+ 475645 string characters out of 5869779
+ 907364 words of memory out of 5000000
+ 41036 multiletter control sequences out of 15000+600000
+ 419659 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,20n,123p,716b,868s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/public/calligra/dpi1433\
-callig15.pk> <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
-i657\eccc1000.pk> <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
-ec/dpi657\ecsi1000.pk> <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
-ppen/ec/dpi657\ecsx1000.pk> <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecss1200.pk> <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/l
-jfour/jknappen/ec/dpi600\ecss0900.pk> <C:\Users\USER\AppData\Local\MiKTeX\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecss0800.pk> <C:\Users\USER\AppData\Local\MiKTeX\
-fonts/pk/ljfour/jknappen/ec/dpi500\ecsx0900.pk> <C:\Users\USER\AppData\Local\Mi
-KTeX\fonts/pk/ljfour/jknappen/ec/dpi657\ecss1000.pk> <C:\Users\USER\AppData\Loc
-al\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi720\ecss1200.pk> <C:\Users\USER\AppDat
-a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi450\ecss0800.pk><C:/Users/USER/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users
-/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
-:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb>
-Output written on slide.pdf (78 pages, 2413921 bytes).
+ 131i,20n,132p,430b,1007s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/calligra-type1/callig15.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy6.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi1095.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texmf/fo
+nts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sfss0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfss1440.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfsx0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb>
+Output written on slide.pdf (72 pages, 606681 bytes).
 PDF statistics:
- 17866 PDF objects out of 18468 (max. 8388607)
- 217 named destinations out of 1000 (max. 500000)
- 458 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 9144 PDF objects out of 10688 (max. 8388607)
+ 8862 compressed objects within 89 object streams
+ 194 named destinations out of 1000 (max. 500000)
+ 358 words of extra memory for PDF output out of 10000 (max. 10000000)
 
