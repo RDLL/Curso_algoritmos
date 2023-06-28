@@ -3,6 +3,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{cite}
 \usepackage{relsize}
+\usepackage{animate}
 
 \usefonttheme[onlymath]{serif}
 %C++ symbol
@@ -330,26 +331,28 @@ En este curso veremos los ejemplos en Python y \Cpp, \Cpp por ser el m\'as utili
         \end{itemize}
 \end{frame}
 
-\section{Arreglos}
+\section{Arreglos  y Matrices}
 
-\subsection{Introducci\'on}
+\subsection{Arreglos}
 \begin{frame}{Introducci\'on}
     \begin{itemize}
             \item Son de un solo tipo
             \item Puede contener m\'ultiples valores
+            \item Es unidimensional
             \item Su espacio en memoria var\'ia seg\'un el tipo de dato y los valores que pueda tener
             \item En Python como tal no existen,  se usan las listas en su lugar
             \item El \'indice siempre empieza en cero, puede variar en algunos lenguajes, pero suele ser una regla general
         \end{itemize}
 \end{frame}
 
-\subsection{Funcionamiento}
+\subsubsection{M\'etodos}
 
 \begin{frame}{Almacenamiento en memoria}
 	\begin{itemize}
 		\item El valor nos \'indica el contenido del arreglo en determinada posici\'on
 		\item El \'indice nos indica la posici\'on en el arreglo
-		\item La direcci\'on de memoria donde se encuentra almacenado dicho valor	\end{itemize}
+		\item La direcci\'on de memoria donde se encuentra almacenado dicho valor	
+	\end{itemize}
 	\centering
     \begin{tikzpicture}[ampersand replacement=\&,every node/.style={draw}]
     	\matrix [draw=red,column sep=1cm]
@@ -359,18 +362,49 @@ En este curso veremos los ejemplos en Python y \Cpp, \Cpp por ser el m\'as utili
     		\node {400}; \& \node{1}; \& \node {0x61feec}; \\
     		\node {78}; \& \node{2}; \& \node {0x61fef0}; \\
     	};
-    	
     \end{tikzpicture}
 \end{frame}
 
-\begin{frame}{Recorrido}
-	\tikz :fill = {0s = "red", 2s = "blue", begin on = click}
-	[text = white, fill = orange ] {
-		\node [fill]                   at (0mm,0) {A};
-		\node [fill]                   at (5mm,0) {B};
-		\node [fill = green!50!black ] at (1cm,0) {C};
-	};
+
+\begin{frame}{Insertar en \Cpp}
+	\begin{itemize}
+		\item Hay que conocer el \'indice donde queremos el valor
+		\item No es necesario insertarlos en orden
+		\item No se puede tener un \'indice mayor al tamaño del arreglo
+	\end{itemize}
+	\centering
+	\animategraphics[autoplay,loop,width=4cm]{20}{animaciones/array/insertion/insertion-}{0}{216}
 \end{frame}
+
+\begin{frame}{Insertar en Python}
+	\begin{itemize}
+		\item Las listas en Python tienen un m\'etodo para agregar valores
+		\item No es necesario conocer el \'indice
+		\item No es necesario conocer el tamaño 
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Modificar}
+	\begin{itemize}
+		\item Hay que conocer el \'indice
+		\item No se puede tener un \'indice mayor al tamaño del arreglo
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Eliminar}
+	\begin{itemize}
+		\item En \Cpp no se puede eliminar un ekemento de un arreglo, solo se ignora el \'indice
+		\item En Python existen 3 m\'etodos
+		\begin{itemize}
+			\item  El \'ultimo elemento
+			\item Por \'indice
+			\item Por valor
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+
+\subsection{Matrices}
 
 \section{Funciones}
 \subsection{Introducci\'on}
