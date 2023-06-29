@@ -15,22 +15,22 @@
 \beamer@subsectionintoc {5}{1}{Estructuras}{42}{0}{5}
 \beamer@sectionintoc {6}{Arreglos y Matrices}{46}{0}{6}
 \beamer@subsectionintoc {6}{1}{Arreglos}{47}{0}{6}
-\beamer@subsubsectionintoc {6}{1}{1}{Funcionamiento}{49}{0}{6}
-\beamer@subsectionintoc {6}{2}{Matrices}{53}{0}{6}
-\beamer@sectionintoc {7}{Funciones}{54}{0}{7}
-\beamer@subsectionintoc {7}{1}{Introducci\'on}{55}{0}{7}
-\beamer@sectionintoc {8}{Apuntadores}{56}{0}{8}
-\beamer@subsectionintoc {8}{1}{Introducci\'on}{57}{0}{8}
-\beamer@sectionintoc {9}{Estructuras de Datos}{58}{0}{9}
-\beamer@subsectionintoc {9}{1}{Introducci\'on}{59}{0}{9}
-\beamer@sectionintoc {10}{Objetos}{60}{0}{10}
-\beamer@subsectionintoc {10}{1}{Introducci\'on}{61}{0}{10}
-\beamer@sectionintoc {11}{Ordenamiento}{62}{0}{11}
-\beamer@subsectionintoc {11}{1}{Introducci\'on}{63}{0}{11}
-\beamer@sectionintoc {12}{B\'usqueda}{64}{0}{12}
-\beamer@subsectionintoc {12}{1}{Introducci\'on}{65}{0}{12}
-\beamer@sectionintoc {13}{Grafos}{66}{0}{13}
-\beamer@subsectionintoc {13}{1}{Introducci\'on}{67}{0}{13}
-\beamer@sectionintoc {14}{Cadenas}{68}{0}{14}
-\beamer@subsectionintoc {14}{1}{Introducci\'on}{69}{0}{14}
-\beamer@sectionintoc {15}{Referencias}{70}{0}{15}
+\beamer@subsubsectionintoc {6}{1}{1}{M\'etodos}{49}{0}{6}
+\beamer@subsectionintoc {6}{2}{Matrices}{55}{0}{6}
+\beamer@sectionintoc {7}{Funciones}{56}{0}{7}
+\beamer@subsectionintoc {7}{1}{Introducci\'on}{57}{0}{7}
+\beamer@sectionintoc {8}{Apuntadores}{58}{0}{8}
+\beamer@subsectionintoc {8}{1}{Introducci\'on}{59}{0}{8}
+\beamer@sectionintoc {9}{Estructuras de Datos}{60}{0}{9}
+\beamer@subsectionintoc {9}{1}{Introducci\'on}{61}{0}{9}
+\beamer@sectionintoc {10}{Objetos}{62}{0}{10}
+\beamer@subsectionintoc {10}{1}{Introducci\'on}{63}{0}{10}
+\beamer@sectionintoc {11}{Ordenamiento}{64}{0}{11}
+\beamer@subsectionintoc {11}{1}{Introducci\'on}{65}{0}{11}
+\beamer@sectionintoc {12}{B\'usqueda}{66}{0}{12}
+\beamer@subsectionintoc {12}{1}{Introducci\'on}{67}{0}{12}
+\beamer@sectionintoc {13}{Grafos}{68}{0}{13}
+\beamer@subsectionintoc {13}{1}{Introducci\'on}{69}{0}{13}
+\beamer@sectionintoc {14}{Cadenas}{70}{0}{14}
+\beamer@subsectionintoc {14}{1}{Introducci\'on}{71}{0}{14}
+\beamer@sectionintoc {15}{Referencias}{72}{0}{15}
