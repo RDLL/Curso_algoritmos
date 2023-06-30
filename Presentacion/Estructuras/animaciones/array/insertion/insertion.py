@@ -1,56 +1,52 @@
 from manim import *
 import numpy as np
 
-class CreateArray(Scene):
+class CreateArrayValue(Scene):
     def construct(self):
-        array = [1, 2, 3, 4, 5]  # Initial array
-        colors = [RED,GREEN,BLUE,YELLOW,WHITE,GRAY]
-        indice = Text("indice")
-        val = Text("Valor")
-        # Create rectangles to represent array elements
-        rectangles = [Rectangle(height=1, width=1) for _ in array]
-        valor = Rectangle(height=1, width=1)
-        valor.shift(UP*2)
-        indice.shift(LEFT * 3)
-        val.move_to(np.array([-2,2,0]))
-        # Position and arrange the rectangles on the screen
-        for i, rectangle in enumerate(rectangles):
-            rectangle.shift(RIGHT * i)  # Shifting each rectangle to the right
-
+        colors = [RED,GREEN,BLUE,YELLOW,WHITE]
+        rectangles = VGroup(*[Rectangle(height=1, width=1,color = colors[_]) for _ in range(5)])
+        for i in range(5):
+            rectangles[i].set_fill(color=colors[i],opacity=1)
+            rectangles[i].shift(RIGHT * i)
+        
+        for i in range(5):
+            insert_value = Rectangle(height=1, width=1,color = colors[i])
+            insert_value.set_fill(color=colors[i],opacity=1)
+            insert_value.move_to(np.array([i,2,0]))
+            self.play(
+                Create(insert_value)
+            )
+            self.play(
+                    ApplyMethod(insert_value.shift,DOWN * 2)
+            )
+            self.add(rectangles[i])
+            self.play(
+                FadeOut(insert_value)
+            )
+        
         # Add the rectangles to the scene
-        self.add(*rectangles,valor,indice,val)
-
-        # Add a new element to the array
-        new_element = 6
-        new_rectangle = Rectangle(height=1, width=1)
-        new_rectangle.shift(RIGHT * len(array))  # Position the new rectangle
-
-        # Animate the addition of the new element
-        self.play(
-            FadeIn(new_rectangle),  # Fade in the new rectangle
-            run_time=0.5
-        )
-
-        array.append(new_element)  # Add the new element to the array
-        rectangles.append(new_rectangle)  # Add the new rectangle to the list
-
-        # Shift the existing rectangles to make room for the new element
-        for i, rectangle in enumerate(rectangles[:]):
-            x = Text(str(i))
-            x.shift(LEFT * 1)
-            valor.set_fill(color=colors[i],opacity=1)
-            rectangle.set_fill(color=colors[i],opacity=1)
-            self.play(
-                Write(x),
-                run_time = 0.3
-            )
-            self.play(
-                ApplyMethod(valor.shift, RIGHT),  # Shift each existing rectangle to the right
-                run_time = 2
-            )
-            self.play(
-                FadeOut(x),
-                run_time = 0.3
-            )
+        # Remove an element
+        #removed_val = rectangles[2]
+        # Move the removed elemento to up
+        #self.play(
+        #    ApplyMethod(removed_val.shift,UP * 2),
+        #)
+        # Remove the element from the scene
+        #self.play(
+        #    FadeOut(removed_val),    
+        #)
+        # regroups the rectangles again
+        #for i in range(3, len(rectangles)): # 3 is the index that follows after the deleted rectangle
+        #    self.play(ApplyMethod(rectangles[i].shift, LEFT))
+        # Now with another element
+        #removed_val = rectangles[1]
+        #self.play(
+        #    ApplyMethod(removed_val.shift,UP * 2),
+        #)
+        #self.play(
+        #    FadeOut(removed_val),    
+        #)
+        #for i in range(3, len(rectangles)): # the same index continues to be applied because it is before the previously eliminated index.
+        #    self.play(ApplyMethod(rectangles[i].shift, LEFT))
+            
         self.wait()  # Wait for the animation to complete
-
