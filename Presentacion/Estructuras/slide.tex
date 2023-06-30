@@ -66,9 +66,9 @@
 \AtBeginSection[]
 {
 	\begin{frame}
-		\begin{multicols}{3}
+		\begin{multicols*}{3}
 			\tableofcontents[currentsection,subsectionstyle=show/shaded/hide,subsubsectionstyle=show/shaded/hide]
-		\end{multicols}
+		\end{multicols*}
 	\end{frame}
 }
 
@@ -82,9 +82,9 @@
 \end{frame}
 
 \begin{frame}{Indice}
-    \begin{multicols}{3}
+    \begin{multicols*}{3}
         \tableofcontents[sectionstyle=show,subsectionstyle=show/shaded/hide,subsubsectionstyle=show/shaded/hide]
-    \end{multicols}
+    \end{multicols*}
 \end{frame}
 
 \section{Introducción}
@@ -109,9 +109,9 @@ que vayamos a usar o estemos utilizando.\newline
 En este curso veremos los ejemplos en Python y \Cpp, \Cpp por ser el m\'as utilizado en programaci\'on competitiva y Python por su s\'intaxis sencilla y su amplia utilizaci\'on en la industria.
 \end{frame}
 
-\section{Conceptos B\'asicos}
+\subsection{Conceptos B\'asicos}
 
-\subsection{Bibliotecas, cabeceras, espacio de nombres}
+\subsubsection{Bibliotecas, cabeceras, espacio de nombres}
 
 \begin{frame}{Cabeceras}
         Son archivos que contienen las declaraciones de funciones y/o clases por lo que suelen tener c\'odigo
@@ -300,8 +300,6 @@ En este curso veremos los ejemplos en Python y \Cpp, \Cpp por ser el m\'as utili
     \end{itemize}
 \end{frame}
 
-\subsection{Estructuras}
-
 \begin{frame}{for}
     \begin{itemize}
         \item Se define un contador
@@ -393,22 +391,74 @@ En este curso veremos los ejemplos en Python y \Cpp, \Cpp por ser el m\'as utili
 
 \begin{frame}{Eliminar}
 	\begin{itemize}
-		\item En \Cpp no se puede eliminar un elemento de un arreglo, solo se ignora el \'indice
-		\item En Python existen 3 m\'etodos
+		\item En \Cpp no se puede eliminar un elemento de un arreglo, solo se ignora el \'indice 
+		\item En Python existen 3 m\'etodos \footnote{Si se elimina un elemento, el tamaño y los \'indices cambian}
 		\begin{itemize}
 			\item Por el \'ultimo \'indice
 			\item Por \'indice
 			\item Por valor
 		\end{itemize}
-		\animategraphics[autoplay,loop,width=4cm]{70}{animaciones/array/elimination/elimination-}{0}{194}
-		\animategraphics[autoplay,loop,width=4cm]{70}{"animaciones/array/elimination_value/"elimination_value-}{0}{149}
-		\animategraphics[autoplay,loop,width=4cm]{70}{animaciones/array/drop/drop-}{0}{194}
+		\animategraphics[autoplay,loop,width=3cm]{70}{animaciones/array/elimination/elimination-}{0}{194}
+		\animategraphics[autoplay,loop,width=3cm]{70}{"animaciones/array/elimination_value/"elimination_value-}{0}{149}
+		\animategraphics[autoplay,loop,width=3cm]{70}{animaciones/array/drop/drop-}{0}{194}
 	\end{itemize}
-	\item Si se elimina un elemento, el tamaño y los \'indices cambian
 \end{frame}
 
-
 \subsection{Matrices}
+\begin{frame}{Introducci\'on}
+	\begin{itemize}
+		\item Son de un solo tipo
+		\item Puede contener m\'ultiples valores
+		\item Son bidimensionales
+		\item Su espacio en memoria var\'ia seg\'un el tipo de dato y los valores que pueda tener
+		\item En Python como tal no existen, se usan listas que contienen listas
+		\item El \'indice siempre empieza en cero, puede variar en algunos lenguajes, pero suele ser una regla general
+		\item Tienen doble índice, uno para las filas y otro para las columnas
+		\item Las filas y columnas no tienen que ser del mismo tamaño
+	\end{itemize}
+\end{frame}
+
+\subsection{M\'etodos}
+
+\begin{frame}{Insertar en \Cpp}
+	\begin{itemize}
+		\item Hay que conocer ambos indices donde queremos agregar el valor
+		\item No es necesario insertarlos en orden
+		\item No se pueden tener indices mayores a las filas o columnas
+	\end{itemize}
+	\centering
+	\animategraphics[autoplay,loop,width=4cm]{20}{animaciones/matrices/insertion/insertion-}{0}{440}
+\end{frame}
+
+\begin{frame}{Insertar en Python}
+	\begin{itemize}
+		\item Hay que conocer los indices donde se ubican las listas
+		\item No es necesario conocer el \'indice
+		\item No es necesario conocer el tamaño 
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Modificar}
+	\begin{itemize}
+		\item Hay que conocer el \'indice
+		\item No se puede tener un \'indice mayor al tamaño del arreglo
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Eliminar}
+	\begin{itemize}
+		\item En \Cpp no se puede eliminar un elemento de una matriz, solo se ignora el \'indice 
+		\item En Python
+		\begin{itemize}
+			\item Por el \'ultimo \'indice
+			\item Por \'indice
+			\item Por valor
+		\end{itemize}
+		\animategraphics[autoplay,loop,width=3cm]{70}{animaciones/array/elimination/elimination-}{0}{194}
+		\animategraphics[autoplay,loop,width=3cm]{70}{"animaciones/array/elimination_value/"elimination_value-}{0}{149}
+		\animategraphics[autoplay,loop,width=3cm]{70}{animaciones/array/drop/drop-}{0}{194}
+	\end{itemize}
+\end{frame}
 
 \section{Funciones}
 \subsection{Introducci\'on}
