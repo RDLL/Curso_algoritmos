@@ -1,18 +1,31 @@
 from manim import *
 
-class EliminateArrayValue(Scene):
+class EliminateMatrixValue(Scene):
+    
     def construct(self):
         colors = [RED,GREEN,BLUE,YELLOW,WHITE]
-        rectangles = VGroup(*[Rectangle(height=1, width=1,color = colors[_]) for _ in range(5)])
-        for i, rectangle in enumerate(rectangles):
-            rectangle.shift(RIGHT * i)  # Shifting each rectangle to the right
-            rectangle.set_fill(color=colors[i],opacity=1)
-        # Add the rectangles to the scene
-        self.play(Create(rectangles))
-        # Remove an element
-        self.wait(1)
+        colors2 = [GRAY,PURPLE,PINK,MAROON,TEAL]
+        colors3 = [GOLD,ORANGE,GRAY_BROWN,PURPLE,PURE_BLUE]
+        rectangles1 = VGroup(*[Rectangle(height=1, width=1,color = colors[_]) for _ in range(5)])
+        rectangles2 = VGroup(*[Rectangle(height=1, width=1,color = colors2[_]) for _ in range(5)])
+        rectangles3 = VGroup(*[Rectangle(height=1, width=1,color = colors3[_]) for _ in range(5)])
+        # Move rectangles to position
         for i in range(5):
-            self.play(FadeOut(rectangles[i]))
-            self.wait(1)
-            
-        self.wait()  # Wait for the animation to complete
+            rectangles1[i].set_fill(color=colors[i],opacity=1)
+            rectangles1[i].move_to(np.array([-3+i,2,0]))
+            rectangles2[i].set_fill(color=colors2[i],opacity=1)
+            rectangles2[i].move_to(np.array([-3+i,1,0]))
+            rectangles3[i].set_fill(color=colors3[i],opacity=1)
+            rectangles3[i].move_to(np.array([-3+i,0,0]))
+
+        self.add(rectangles1,rectangles2,rectangles3)
+        self.wait(1)
+        # Eliminate first row
+        for i in range(5):
+            self.play(FadeOut(rectangles1[i]))
+        # Eliminate second row
+        for i in range(5):
+            self.play(FadeOut(rectangles2[i]))
+        # Eliminate third row
+        for i in range(5):
+            self.play(FadeOut(rectangles3[i]))

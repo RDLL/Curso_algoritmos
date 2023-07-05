@@ -16,7 +16,7 @@
 \beamer@subsectionintoc {5}{1}{Arreglos}{46}{0}{5}
 \beamer@subsubsectionintoc {5}{1}{1}{M\'etodos}{48}{0}{5}
 \beamer@subsectionintoc {5}{2}{Matrices}{54}{0}{5}
-\beamer@subsectionintoc {5}{3}{M\'etodos}{56}{0}{5}
+\beamer@subsubsectionintoc {5}{2}{1}{M\'etodos}{56}{0}{5}
 \beamer@sectionintoc {6}{Funciones}{61}{0}{6}
 \beamer@subsectionintoc {6}{1}{Introducci\'on}{62}{0}{6}
 \beamer@sectionintoc {7}{Apuntadores}{63}{0}{7}
