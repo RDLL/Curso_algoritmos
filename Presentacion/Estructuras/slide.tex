@@ -478,9 +478,10 @@ En este curso veremos los ejemplos en Python y \Cpp, \Cpp por ser el m\'as utili
 \end{frame}
 
 \section{Funciones}
+
 \subsection{Introducci\'on}
 
-\begin{frame}{Funciones}
+\begin{frame}{Introducci\'on}
 	\begin{itemize}
 		\item Es c\'odigo que se encuentra fuera del c\'odigo principal
 		\item Nos ayudan a crear c\'odigo mas legible, organizado y f\'acil de mantener
@@ -490,6 +491,36 @@ En este curso veremos los ejemplos en Python y \Cpp, \Cpp por ser el m\'as utili
 		\item Se pueden usar con apuntadores
 	\end{itemize}
 \end{frame}
+
+\subsection{Declaraci\'on}
+
+\begin{frame}{Sintaxis}
+	Una funci\'on se compone de 4 partes
+	\begin{itemize}
+		\item El tipo de dato de la funci\'on \footnote{En Python no aplica}
+		\item El nombre de la funci\'on
+		\item Los par\'ametros, si es que lleva
+		\item Lo que va a realizar
+	\end{itemize}
+	\lstset{language=C++,
+		basicstyle=\ttfamily,
+		keywordstyle=\color{blue}\ttfamily,
+		stringstyle=\color{red}\ttfamily,
+		commentstyle=\color{green}\ttfamily,
+		morecomment=[l][\color{magenta}]{\#}
+	}
+	\begin{lstlisting}
+		#include<iostream>
+	//tipo  //nombre  //parametros
+		int main()
+		{
+			//codigo que ejecuta
+			std::cout << "Hola Mundo";
+			return 0;
+		}
+	\end{lstlisting}
+\end{frame}
+
 
 \section{Apuntadores}
 \subsection{Introducci\'on}
