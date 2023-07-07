@@ -5,6 +5,11 @@
 \newblock {\em Python Basics}, 3~ed.
 \newblock David Pallai, Mercury Learning and Information, 2019.
 
+\bibitem{BRASSARD}
+{\sc Brassard, G., and Bratley, P.}
+\newblock {\em Algorithmics: Theory anda Practice}, 31~ed.
+\newblock Prentice Hall, 1988.
+
 \bibitem{CAIRO}
 {\sc CAIR\'O, O., and Guardati, S.}
 \newblock {\em Algorithms}, 3~ed.
