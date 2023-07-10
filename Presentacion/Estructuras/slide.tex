@@ -33,18 +33,6 @@
 \definecolor{deepgreen}{rgb}{0,0.5,0}
 \definecolor{halfgray}{gray}{0.55}
 
-
-\lstset{
-    basicstyle=\ttfamily\small,
-    keywordstyle=\bfseries\color{deepblue},
-    emphstyle=\ttfamily\color{deepred},    
-    stringstyle=\color{deepgreen},
-    numbers=left,
-    numberstyle=\small\color{halfgray},
-    rulesepcolor=\color{red!20!green!20!blue!20},
-    frame=shadowbox
-}
-
 \begin{document}
 
 \AtBeginSubsection[]
@@ -472,7 +460,7 @@ En este curso veremos los ejemplos en Python y \Cpp, \Cpp por ser el m\'as utili
 			\item Por valor
 		\end{itemize}
 		\animategraphics[autoplay,loop,width=3cm]{20}{animaciones/matrices/elimination/elimination-}{0}{239}
-		\animategraphics[autoplay,loop,width=3cm]{20}{"animaciones/matrices/elimination_value/"elimination_value-}{0}{233}
+		\animategraphics[autoplay,loop,width=3cm]{20}{"animaciones/matrices/elimination_value/elimination_value-"}{0}{233}
 		\animategraphics[autoplay,loop,width=3cm]{20}{animaciones/Matrices/drop/drop-}{0}{254}
 	\end{itemize}
 \end{frame}
@@ -492,33 +480,48 @@ En este curso veremos los ejemplos en Python y \Cpp, \Cpp por ser el m\'as utili
 	\end{itemize}
 \end{frame}
 
-\subsection{Declaraci\'on}
-
 \begin{frame}{Sintaxis}
 	Una funci\'on se compone de 4 partes
 	\begin{itemize}
 		\item El tipo de dato de la funci\'on \footnote{En Python no aplica}
 		\item El nombre de la funci\'on
 		\item Los par\'ametros, si es que lleva
-		\item Lo que va a realizar
+		\item El c\'odigo que ejecuta
 	\end{itemize}
-	\lstset{language=C++,
-		basicstyle=\ttfamily,
-		keywordstyle=\color{blue}\ttfamily,
-		stringstyle=\color{red}\ttfamily,
-		commentstyle=\color{green}\ttfamily,
-		morecomment=[l][\color{magenta}]{\#}
-	}
-	\begin{lstlisting}
-		#include<iostream>
-	//tipo  //nombre  //parametros
-		int main()
-		{
-			//codigo que ejecuta
-			std::cout << "Hola Mundo";
-			return 0;
-		}
-	\end{lstlisting}
+\end{frame}
+
+\subsection{Funciones an\'nimas}
+
+\begin{frame}{Funciones an\'onimas}
+	\begin{itemize}
+		\item Son funciones sin nombre
+		\item Se declaran in situ
+		\item Pueden tener como par\'ametros todo el scope
+	\end{itemize}
+\end{frame}
+
+\subsection{Recursividad}
+
+\begin{frame}{Recursividad}
+	\begin{itemize}
+		\item Es m\'as un m\'etodo
+		\item Aplica para problemas que est\'an definidos sobre si mismos (factorial y fibonacci)
+		\item Las funciones se llaman a si mismas
+		\item Tienen la desventaja de llegar a consumir un espacio considerable de memoria
+		\item Pueden ser dif\'iciles de implementar
+	\end{itemize}
+	\centering
+	\animategraphics[autoplay,loop,width=4cm]{20}{animaciones/recursividad/recursividad-}{0}{104}
+\end{frame}
+
+\subsection{Macros}
+\begin{frame}{Macros}
+	\begin{itemize}
+		\item Son directivas tratadas por el preprocesador
+		\item No son variables ni datos
+		\item Sustituyen lo que tengan en donde se haga la llamada a la macro
+		\item Disminuyen los tiempos de ejecuci\'on
+	\end{itemize}
 \end{frame}
 
 
