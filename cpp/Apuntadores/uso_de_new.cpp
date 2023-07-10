@@ -18,6 +18,7 @@ int main(void)
 {
     float average=0;
     int i,*ptrA = new int[10];
+    float *ptrAverage = &average;
     for (i = 0; i < 10; i++)
     {
         *(ptrA+i) = i*2;
@@ -25,11 +26,16 @@ int main(void)
     }
     cout<<endl;
     for (i = 0; i < 10; i++){
-        average += *ptrA; //Al poner el ++ en esta parte, se genera un pequeño error, cambia de posicion de memoria
-        //cout<<"pointer : "<<*ptrA<<endl;
-        *ptrA++;
+        average += *ptrA; //Accedemos al valor donde esta apuntando ptrA
+        cout<<"address : "<< ptrA <<endl;
+        cout<<"pointer value : "<< *ptrA <<endl;
+        ptrA ++; //Avanzamos a la siguiente direccion de memoria
     }
     average/=10;
+    cout << "\n\nAddress of average is " << &ptrAverage <<"\n\n";
+    
     cout << "\n\nThe average is " << average <<"\n\n";
+    ptrAverage ++;
+    cout << "\n\nNew addres of average is " << ptrAverage <<"\n\n";
     return 0;
 }

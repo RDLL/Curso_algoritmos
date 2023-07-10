@@ -490,6 +490,16 @@ En este curso veremos los ejemplos en Python y \Cpp, \Cpp por ser el m\'as utili
 	\end{itemize}
 \end{frame}
 
+\subsection{Tipos de Par\'ametros}
+
+\begin{frame}{Por Referencia}
+	A la funci\'on se le pasa la direcci\'on de memoria del par\'ametro que solicita, es decir donde se encuentra alojado el valor de dicho par\'ametro por lo que podemos modificar dicho valor dentro de la funci\'on por lo que hay que tener cuidado cuando se use este tipo de par\'ametro ya que podr\'iamos terminar con resultados inesperados
+\end{frame}
+
+\begin{frame}{Por valor}
+	A la funci\'on se le pasa solo el valor del par\'ametro que solicita, es decir se le pasa una copia de la varaible que se le est\'a pasando, aqu\'i el valor del par\'ametro aunque lo modifiquemos en la funci\'on, en el c\'odigo principal no va a cambiar
+\end{frame}
+
 \subsection{Funciones an\'nimas}
 
 \begin{frame}{Funciones an\'onimas}
@@ -526,10 +536,126 @@ En este curso veremos los ejemplos en Python y \Cpp, \Cpp por ser el m\'as utili
 
 
 \section{Apuntadores}
+
 \subsection{Introducci\'on}
 
+\begin{frame}{Introducci\'on}
+	\begin{itemize}
+		\item Hacen referencia a direcciones de memoria
+		\item Pueden apuntar a direcciones de memorias de variables y funciones
+		\item Su tipo de dato puede cambiar \footnote{solo cuando se declaran de tipo void}
+		\item Tambi\'en pueden apuntar a arreglos o matrices
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Ventajas}
+	Debajo de muchos de los lenguajes actuales se hace uso de los apuntadores, sin embargo no permiten hacer un uso mas profundo de ellos por lo que podr\'iamos terminar con c\'odigo mas pesado o ineficiente, los apuntadores nos permiten:
+	\begin{itemize}
+		\item Administrar el uso de memoria
+		\item Crear c\'odigo mas eficiente y r\'apido
+		\item Permiten evitar o disminuir el overhead \footnote{Exceso de tiempo de ejecuci\'on y memoria}
+		\item Iterar eficientemente sobre estructuras de datos 
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Desventajas}
+	Aunque los apuntadores son una poderosa herramienta tambi\'en implican ciertos riesgos o desventajas
+	\begin{itemize}
+		\item Mala administraci\'on de la memoria
+		\item Posible acceso a partes cr\'iticas del sistema
+		\item Requiere una previa planeaci\'on sobre su implementaci\'on el c\'odigo
+	\end{itemize}
+\end{frame}
+
+\subsection{Operadores}
+\begin{frame}{Operador de direcci\'on \&}
+	Nos permite obtener la direcci\'on de memoria de cualquier variable, sea un apuntador o no, hay que tener cuidado al usarlos, ya que podr\'iamos terminar mostrando direcciones importantes del sistema
+\end{frame}
+
+\begin{frame}{Operador de indirecci\'on *}
+	Nos permite obtener el contenido de la direcci\'on a la que el apuntador hace referencia, es decir nos muestra un valor o dato, aqu\'i tambi\'en hay que tener cierto cuidado o podr\'iamos terminar mostrando valores importantes del sistema.
+\end{frame}
+
+\subsection{Aritm\'etica de apuntadores}
+
+\begin{frame}{Suma y resta}
+	Podemos hacer sumas o restas en un apuntador como en cualquier otra variable sin embargo debemos considerar que en realidad lo que estariamos haciendo es cambiar la direcci\'on de memoria a la que se apunta.
+	En el caso de la suma estariamos avanzando hacia una direcci\'on de memoria que se encuentre mas adelante, seg\'un el tipo de dato al que apunte se este apuntando.
+	Para la resta estar\'iamos retrociendo hacia una direcci\'on de memoria que se encuentre mas atr\'as
+\end{frame}
+
+\subsection{Arreglos y apuntadores}
+
+\begin{frame}{Relaci\'on entre arreglos y apuntadores}
+	Dado que un arreglo es una variable en la que se reserva un n tamaño de memoria, mediante apuntadores podemos acceder a la memoria de los diferentes \'indices del arreglo, tambi\'en mediante apuntadores podemos crear arreglos, la diferencia es que con apuntadores el espacio de memoria se reserva en tiempo de ejecuci\'on (memoria din\'amica)
+\end{frame}
+
+\begin{frame}{Matrices con apuntadores}
+	En realidad una matriz con apuntadores, es un arreglo de apuntadores, donde cada apuntador hace referencia a una direcci\'on de memoria, tal vez suene m\'as complicado pero la creaci\'on y recorrido es de la misma manera que en una matriz, solo que aplicando aritm\'etica de apuntadores.
+\end{frame}
+
+\begin{frame}{Ventajas respecto a arreglos o matrices}
+	\begin{itemize}
+		\item No es necesario conocer el tamaño
+		\item Se reserva el tamaño exacto
+		\item Se puede liberar la memoria en caso de ya no utilizarla
+		\item Se puede redimensionar el tamaño
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Desventajas respecto a arreglos o matrices}
+	\begin{itemize}
+		\item A veces es complicado de implementar 
+		\item Para redimensionar el tamaño es necesario crear una copia
+		\item No se pueden eliminar elementos intermedios
+		\item Cuando se libera memoria se borra todo el arreglo o matriz
+		\item Se tiene que volver a crear el espacio de memoria en caso de querer redimensionar
+	\end{itemize}
+\end{frame}
+
+\subsection{Apuntadores a funciones}
+
+\begin{frame}{Apuntadores a funciones}
+	\begin{itemize}
+		\item Hay que saber el tipo de dato que retorna la funci\'on
+		\item Hay que saber los par\'ametros de la funci\'on
+		\item Pueden hacer referencia a cualquier funci\'on que cumpla con los primeros puntos
+		\item Podemos crear c\'odigo m\'as limpio y legible
+		\item En principio puede ser d\'ificil de implementar
+	\end{itemize}
+\end{frame}
+
 \section{Estructuras de Datos}
+
 \subsection{Introducci\'on}
+\begin{frame}{Introducci\'on}
+	\begin{itemize}
+		\item Son un grupo o colecci\'on de datos que contienen operaciones para poder manipularlos
+		\item Pueden ser est\'aticos o din\'amicos
+		\item Nos ayudan a representar datos reales en informaci\'on
+		\item Pueden ser lineales o no lineales
+	\end{itemize}
+\end{frame}
+
+\subsection{Pilas}
+\begin{frame}{Pilas}
+	\begin{itemize}
+		\item Son una estructura de tipo LIFO (Last In First Out)
+		\item Puede ser est\'atica o din\'amica
+		\item Cuenta con 4 operaciones b\'asicas
+		\item Tiene un tope
+		\item Si es est\a'atica hay que definir un t\'amaño m\'aximo
+	\end{itemize}
+\end{frame}
+
+\subsubsection{M\'etodos}
+
+\begin{frame}{Inserci\'on}
+	\begin{itemize}
+		\item Hay que comprobar que no este llena
+	\end{itemize}
+\end{frame}
+
 
 \section{Objetos}
 \subsection{Introducci\'on}
