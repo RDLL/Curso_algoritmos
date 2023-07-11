@@ -642,9 +642,9 @@ En este curso veremos los ejemplos en Python y \Cpp, \Cpp por ser el m\'as utili
 	\begin{itemize}
 		\item Son una estructura de tipo LIFO (Last In First Out)
 		\item Puede ser est\'atica o din\'amica
-		\item Cuenta con 4 operaciones b\'asicas
+		\item Cuenta con 2 operaciones b\'asicas
 		\item Tiene un tope
-		\item Si es est\a'atica hay que definir un t\'amaño m\'aximo
+		\item Si es est\'atica hay que definir un t\'amaño m\'aximo
 	\end{itemize}
 \end{frame}
 
@@ -653,9 +653,45 @@ En este curso veremos los ejemplos en Python y \Cpp, \Cpp por ser el m\'as utili
 \begin{frame}{Inserci\'on}
 	\begin{itemize}
 		\item Hay que comprobar que no este llena
+		\item El tope es el nuevo elemento insertado
 	\end{itemize}
 \end{frame}
 
+\begin{frame}{Eliminaci\'on}
+	\begin{itemize}
+		\item Hay que comprobar que no este vac\'ia
+		\item El tope es el elemento debajo del que eliminamos
+	\end{itemize}
+\end{frame}
+
+\subsection{Colas}
+
+\begin{frame}{Colas}
+	\begin{itemize}
+		\item Son una estructura de tipo FIFO (First In First Out)
+		\item Puede ser est\'atica o din\'amica
+		\item Cuenta con 2 operaciones b\'asicas
+		\item El final es el \'ultimo elemento
+		\item Tiene un inicio
+		\item Si es est\'atica hay que definir un t\'amaño m\'aximo
+	\end{itemize}
+\end{frame}
+
+\subsubsection{M\'etodos}
+
+\begin{frame}{Inserci\'on}
+	\begin{itemize}
+		\item Hay que comprobar que no este llena
+		\item El tope es el nuevo elemento insertado
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Eliminaci\'on}
+	\begin{itemize}
+		\item Hay que comprobar que no este vac\'ia
+		\item El inicio es el elemento siguiente al que eliminamos
+	\end{itemize}
+\end{frame}
 
 \section{Objetos}
 \subsection{Introducci\'on}

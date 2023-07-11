@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.27)  10 JUL 2023 17:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.27)  11 JUL 2023 16:33
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -17645,7 +17645,7 @@ Overfull \hbox (320.65775pt too wide) has occurred while \output is active
 [99
 
 ]
-Overfull \hbox (320.65775pt too wide) detected at line 657
+Overfull \hbox (320.65775pt too wide) detected at line 658
   [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
 [][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
 [][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
@@ -17663,7 +17663,7 @@ Overfull \hbox (320.65775pt too wide) has occurred while \output is active
 [100
 
 ]
-Overfull \hbox (320.65775pt too wide) detected at line 660
+Overfull \hbox (320.65775pt too wide) detected at line 665
   [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
 [][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
 [][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
@@ -17671,10 +17671,6 @@ Overfull \hbox (320.65775pt too wide) detected at line 660
  []
 
 
-Package multicol Warning: multicols* inside a box does not make sense.
-(multicol)                Going to balance anyway on input line 660.
-
-(slide.toc)
 Overfull \hbox (320.65775pt too wide) has occurred while \output is active
   [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
 [][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
@@ -17683,86 +17679,6 @@ Overfull \hbox (320.65775pt too wide) has occurred while \output is active
  []
 
 [101
-
-]
-Overfull \hbox (320.65775pt too wide) detected at line 661
-  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
-[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
-[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
-] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \hbox (320.65775pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
-[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
-[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
-] [][][] [][][] [][][] [][][][][][][]  
- []
-
-[102
-
-]
-Overfull \hbox (320.65775pt too wide) detected at line 663
-  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
-[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
-[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
-] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Package multicol Warning: multicols* inside a box does not make sense.
-(multicol)                Going to balance anyway on input line 663.
-
-(slide.toc)
-Overfull \hbox (320.65775pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
-[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
-[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
-] [][][] [][][] [][][] [][][][][][][]  
- []
-
-[103
-
-]
-Overfull \hbox (320.65775pt too wide) detected at line 664
-  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
-[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
-[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
-] [][][] [][][] [][][] [][][][][][][]  
- []
-
-(slide.toc)
-Overfull \hbox (320.65775pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
-[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
-[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
-] [][][] [][][] [][][] [][][][][][][]  
- []
-
-[104
-
-]
-Overfull \hbox (320.65775pt too wide) detected at line 666
-  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
-[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
-[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
-] [][][] [][][] [][][] [][][][][][][]  
- []
-
-
-Package multicol Warning: multicols* inside a box does not make sense.
-(multicol)                Going to balance anyway on input line 666.
-
-(slide.toc)
-Overfull \hbox (320.65775pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
-[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
-[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
-] [][][] [][][] [][][] [][][][][][][]  
- []
-
-[105
 
 ]
 Overfull \hbox (320.65775pt too wide) detected at line 667
@@ -17780,10 +17696,82 @@ Overfull \hbox (320.65775pt too wide) has occurred while \output is active
 ] [][][] [][][] [][][] [][][][][][][]  
  []
 
+[102
+
+]
+Overfull \hbox (320.65775pt too wide) detected at line 678
+  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
+[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
+[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
+] [][][] [][][] [][][] [][][][][][][]  
+ []
+
+
+Overfull \hbox (320.65775pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
+[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
+[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
+] [][][] [][][] [][][] [][][][][][][]  
+ []
+
+[103
+
+]
+Overfull \hbox (320.65775pt too wide) detected at line 680
+  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
+[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
+[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
+] [][][] [][][] [][][] [][][][][][][]  
+ []
+
+(slide.toc)
+Overfull \hbox (320.65775pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
+[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
+[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
+] [][][] [][][] [][][] [][][][][][][]  
+ []
+
+[104
+
+]
+Overfull \hbox (320.65775pt too wide) detected at line 687
+  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
+[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
+[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
+] [][][] [][][] [][][] [][][][][][][]  
+ []
+
+
+Overfull \hbox (320.65775pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
+[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
+[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
+] [][][] [][][] [][][] [][][][][][][]  
+ []
+
+[105
+
+]
+Overfull \hbox (320.65775pt too wide) detected at line 694
+  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
+[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
+[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
+] [][][] [][][] [][][] [][][][][][][]  
+ []
+
+
+Overfull \hbox (320.65775pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
+[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
+[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
+] [][][] [][][] [][][] [][][][][][][]  
+ []
+
 [106
 
 ]
-Overfull \hbox (320.65775pt too wide) detected at line 669
+Overfull \hbox (320.65775pt too wide) detected at line 696
   [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
 [][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
 [][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
@@ -17792,7 +17780,7 @@ Overfull \hbox (320.65775pt too wide) detected at line 669
 
 
 Package multicol Warning: multicols* inside a box does not make sense.
-(multicol)                Going to balance anyway on input line 669.
+(multicol)                Going to balance anyway on input line 696.
 
 (slide.toc)
 Overfull \hbox (320.65775pt too wide) has occurred while \output is active
@@ -17805,7 +17793,7 @@ Overfull \hbox (320.65775pt too wide) has occurred while \output is active
 [107
 
 ]
-Overfull \hbox (320.65775pt too wide) detected at line 670
+Overfull \hbox (320.65775pt too wide) detected at line 697
   [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
 [][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
 [][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
@@ -17823,7 +17811,7 @@ Overfull \hbox (320.65775pt too wide) has occurred while \output is active
 [108
 
 ]
-Overfull \hbox (320.65775pt too wide) detected at line 672
+Overfull \hbox (320.65775pt too wide) detected at line 699
   [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
 [][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
 [][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
@@ -17832,7 +17820,7 @@ Overfull \hbox (320.65775pt too wide) detected at line 672
 
 
 Package multicol Warning: multicols* inside a box does not make sense.
-(multicol)                Going to balance anyway on input line 672.
+(multicol)                Going to balance anyway on input line 699.
 
 (slide.toc)
 Overfull \hbox (320.65775pt too wide) has occurred while \output is active
@@ -17845,7 +17833,7 @@ Overfull \hbox (320.65775pt too wide) has occurred while \output is active
 [109
 
 ]
-Overfull \hbox (320.65775pt too wide) detected at line 673
+Overfull \hbox (320.65775pt too wide) detected at line 700
   [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
 [][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
 [][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
@@ -17863,7 +17851,7 @@ Overfull \hbox (320.65775pt too wide) has occurred while \output is active
 [110
 
 ]
-Overfull \hbox (320.65775pt too wide) detected at line 675
+Overfull \hbox (320.65775pt too wide) detected at line 702
   [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
 [][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
 [][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
@@ -17872,7 +17860,7 @@ Overfull \hbox (320.65775pt too wide) detected at line 675
 
 
 Package multicol Warning: multicols* inside a box does not make sense.
-(multicol)                Going to balance anyway on input line 675.
+(multicol)                Going to balance anyway on input line 702.
 
 (slide.toc)
 Overfull \hbox (320.65775pt too wide) has occurred while \output is active
@@ -17885,7 +17873,127 @@ Overfull \hbox (320.65775pt too wide) has occurred while \output is active
 [111
 
 ]
-Overfull \hbox (320.65775pt too wide) detected at line 682
+Overfull \hbox (320.65775pt too wide) detected at line 703
+  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
+[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
+[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
+] [][][] [][][] [][][] [][][][][][][]  
+ []
+
+(slide.toc)
+Overfull \hbox (320.65775pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
+[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
+[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
+] [][][] [][][] [][][] [][][][][][][]  
+ []
+
+[112
+
+]
+Overfull \hbox (320.65775pt too wide) detected at line 705
+  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
+[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
+[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
+] [][][] [][][] [][][] [][][][][][][]  
+ []
+
+
+Package multicol Warning: multicols* inside a box does not make sense.
+(multicol)                Going to balance anyway on input line 705.
+
+(slide.toc)
+Overfull \hbox (320.65775pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
+[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
+[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
+] [][][] [][][] [][][] [][][][][][][]  
+ []
+
+[113
+
+]
+Overfull \hbox (320.65775pt too wide) detected at line 706
+  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
+[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
+[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
+] [][][] [][][] [][][] [][][][][][][]  
+ []
+
+(slide.toc)
+Overfull \hbox (320.65775pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
+[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
+[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
+] [][][] [][][] [][][] [][][][][][][]  
+ []
+
+[114
+
+]
+Overfull \hbox (320.65775pt too wide) detected at line 708
+  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
+[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
+[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
+] [][][] [][][] [][][] [][][][][][][]  
+ []
+
+
+Package multicol Warning: multicols* inside a box does not make sense.
+(multicol)                Going to balance anyway on input line 708.
+
+(slide.toc)
+Overfull \hbox (320.65775pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
+[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
+[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
+] [][][] [][][] [][][] [][][][][][][]  
+ []
+
+[115
+
+]
+Overfull \hbox (320.65775pt too wide) detected at line 709
+  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
+[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
+[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
+] [][][] [][][] [][][] [][][][][][][]  
+ []
+
+(slide.toc)
+Overfull \hbox (320.65775pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
+[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
+[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
+] [][][] [][][] [][][] [][][][][][][]  
+ []
+
+[116
+
+]
+Overfull \hbox (320.65775pt too wide) detected at line 711
+  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
+[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
+[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
+] [][][] [][][] [][][] [][][][][][][]  
+ []
+
+
+Package multicol Warning: multicols* inside a box does not make sense.
+(multicol)                Going to balance anyway on input line 711.
+
+(slide.toc)
+Overfull \hbox (320.65775pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
+[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
+[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
+] [][][] [][][] [][][] [][][][][][][]  
+ []
+
+[117
+
+]
+Overfull \hbox (320.65775pt too wide) detected at line 718
   [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
 [][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
 [][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
@@ -17905,7 +18013,7 @@ Overfull \hbox (320.65775pt too wide) has occurred while \output is active
 ] [][][] [][][] [][][] [][][][][][][]  
  []
 
-[112
+[118
 
 ]
 Overfull \hbox (320.65775pt too wide) has occurred while \output is active
@@ -17915,18 +18023,7 @@ Overfull \hbox (320.65775pt too wide) has occurred while \output is active
 ] [][][] [][][] [][][] [][][][][][][]  
  []
 
-[113
-
-
-]
-Overfull \hbox (320.65775pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
-[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
-[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
-] [][][] [][][] [][][] [][][][][][][]  
- []
-
-[114
+[119
 
 
 ]
@@ -17937,11 +18034,22 @@ Overfull \hbox (320.65775pt too wide) has occurred while \output is active
 ] [][][] [][][] [][][] [][][][][][][]  
  []
 
-[115
+[120
 
 
 ]
-Overfull \hbox (320.65775pt too wide) detected at line 688
+Overfull \hbox (320.65775pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
+[][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
+[][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
+] [][][] [][][] [][][] [][][][][][][]  
+ []
+
+[121
+
+
+]
+Overfull \hbox (320.65775pt too wide) detected at line 724
   [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
 [][][][][][][] [][][][][][] [][][][][][][][][][][][][][][][][] [][][][][][][][]
 [][][][][][] [][][][][][][][][][][][][][][][][][] [][][][][][][][] [][][] [][][
@@ -17949,7 +18057,7 @@ Overfull \hbox (320.65775pt too wide) detected at line 688
  []
 
 LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 35.82726pt on input line 688.
+(Font)              scaled to size 35.82726pt on input line 724.
 
 Overfull \hbox (320.65775pt too wide) has occurred while \output is active
   [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][][][] [][][][]
@@ -17958,7 +18066,7 @@ Overfull \hbox (320.65775pt too wide) has occurred while \output is active
 ] [][][] [][][] [][][] [][][][][][][]  
  []
 
-[116
+[122
 
 ]
 \tf@nav=\write6
@@ -17970,7 +18078,12 @@ Overfull \hbox (320.65775pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `slide.snm'.
 
- (slide.aux)
+
+
+LaTeX Warning: Hook 'shipout/lastpage' executed on wrong page (116 not 122).
+               Rerun to correct this.
+
+(slide.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-16>
@@ -17979,36 +18092,66 @@ L3 programming layer <2023-06-16>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `slide.out' has not changed.
-(rerunfilecheck)             Checksum: A4787ABEC2B936D62F13106BEF064134;4538.
+
+Package rerunfilecheck Warning: File `slide.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `slide.out':
+(rerunfilecheck)             Before: A4787ABEC2B936D62F13106BEF064134;4538
+(rerunfilecheck)             After:  6B497CDB019314173E574EAEE7D65FB4;4623.
  ) 
 Here is how much of TeX's memory you used:
- 57539 strings out of 476037
- 1967973 string characters out of 5780317
+ 57563 strings out of 476037
+ 1968416 string characters out of 5780317
  1944763 words of memory out of 5000000
  77282 multiletter control sequences out of 15000+600000
  532056 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,20n,123p,403b,2064s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/public/calligra/dpi1433\
-callig15.pk> <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
-i600\ecss1000.pk> <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecsi1095.pk> <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
-ppen/ec/dpi600\ecsx1095.pk> <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecss0900.pk> <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/l
-jfour/jknappen/ec/dpi600\ecss1200.pk> <C:\Users\USER\AppData\Local\MiKTeX\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecss0800.pk> <C:\Users\USER\AppData\Local\MiKTeX\
-fonts/pk/ljfour/jknappen/ec/dpi600\ecsx0800.pk> <C:\Users\USER\AppData\Local\Mi
-KTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Users\USER\AppData\Loc
-al\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\Users\USER\AppDat
-a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0600.pk><C:/Users/USER/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users
-/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
-:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb>
-Output written on slide.pdf (116 pages, 11127777 bytes).
+
+pdfTeX warning (dest): name{Outline0.14.1.112} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.13.1.110} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.12.1.108} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.11.1.106} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.10.1.104} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.9.1.102} has been referenced but does not 
+exist, replaced by a fixed one
+
+ <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/public/calligra/dpi1433\ca
+llig15.pk> <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi6
+00\ecss1000.pk> <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecsi1095.pk> <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
+en/ec/dpi600\ecsx1095.pk> <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/j
+knappen/ec/dpi600\ecss0900.pk> <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljf
+our/jknappen/ec/dpi600\ecss1200.pk> <C:\Users\USER\AppData\Local\MiKTeX\fonts/p
+k/ljfour/jknappen/ec/dpi600\ecss0800.pk> <C:\Users\USER\AppData\Local\MiKTeX\fo
+nts/pk/ljfour/jknappen/ec/dpi600\ecsx0800.pk> <C:\Users\USER\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Users\USER\AppData\Local
+\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\Users\USER\AppData\
+Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0600.pk><C:/Users/USER/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/U
+SER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
+Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb>
+Output written on slide.pdf (122 pages, 11339453 bytes).
 PDF statistics:
- 43384 PDF objects out of 45951 (max. 8388607)
- 295 named destinations out of 1000 (max. 500000)
+ 45136 PDF objects out of 45951 (max. 8388607)
+ 315 named destinations out of 1000 (max. 500000)
  19686 words of extra memory for PDF output out of 20736 (max. 10000000)
 
