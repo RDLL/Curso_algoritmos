@@ -15,7 +15,7 @@
 
 \usepackage{latexsym,amsmath,xcolor,multicol,booktabs,calligra}
 \usepackage{graphicx,tikz,listings,stackengine}
-\usetikzlibrary{matrix, positioning}
+\usetikzlibrary{shapes,snakes,matrix, positioning,arrows.meta}
 \setbeamertemplate{bibliography item}[text]
 
 \author{Rafael De Luna Loredo}
@@ -349,7 +349,6 @@ En este curso veremos los ejemplos en Python y \Cpp, \Cpp por ser el m\'as utili
         \end{itemize}
 \end{frame}
 
-\subsubsection{M\'etodos}
 
 \begin{frame}{Almacenamiento en memoria}
 	\begin{itemize}
@@ -369,6 +368,7 @@ En este curso veremos los ejemplos en Python y \Cpp, \Cpp por ser el m\'as utili
     \end{tikzpicture}
 \end{frame}
 
+\subsubsection{M\'etodos}
 
 \begin{frame}{Insertar en \Cpp}
 	\begin{itemize}
@@ -655,13 +655,17 @@ En este curso veremos los ejemplos en Python y \Cpp, \Cpp por ser el m\'as utili
 		\item Hay que comprobar que no este llena
 		\item El tope es el nuevo elemento insertado
 	\end{itemize}
+	\centering
+	\animategraphics[autoplay,loop,width=3cm]{20}{animaciones/Estructuras/pilas/insertion/push-}{0}{164}
 \end{frame}
 
 \begin{frame}{Eliminaci\'on}
 	\begin{itemize}
 		\item Hay que comprobar que no este vac\'ia
-		\item El tope es el elemento debajo del que eliminamos
+		\item El nuevo tope ser\'a el elemento debajo del que eliminamos
 	\end{itemize}
+	\centering
+	\animategraphics[autoplay,loop,width=3cm]{20}{animaciones/Estructuras/pilas/elimination/pop-}{0}{164}
 \end{frame}
 
 \subsection{Colas}
@@ -684,6 +688,8 @@ En este curso veremos los ejemplos en Python y \Cpp, \Cpp por ser el m\'as utili
 		\item Hay que comprobar que no este llena
 		\item El tope es el nuevo elemento insertado
 	\end{itemize}
+	\centering
+	\animategraphics[autoplay,loop,width=3cm]{20}{animaciones/Estructuras/colas/insertion/qeue-}{0}{164}
 \end{frame}
 
 \begin{frame}{Eliminaci\'on}
@@ -691,6 +697,55 @@ En este curso veremos los ejemplos en Python y \Cpp, \Cpp por ser el m\'as utili
 		\item Hay que comprobar que no este vac\'ia
 		\item El inicio es el elemento siguiente al que eliminamos
 	\end{itemize}
+	\centering
+	\animategraphics[autoplay,loop,width=3cm]{20}{animaciones/Estructuras/colas/elimination/deque-}{0}{149}
+\end{frame}
+
+\subsection{Listas simples}
+
+\begin{frame}{Listas simples}
+	\begin{itemize}
+		\item Son una estructura lineal
+		\item Es din\'amica
+		\item Son una colecci\'on de nodos
+		\item Cada nodo es un puntero
+	\end{itemize}
+	\centering
+	\begin{tikzpicture}
+		\node(p) at (0,2) {*P};
+		\draw [-{Latex[length=2.5mm]}] (0,1.8) -- (0,1.1);
+		\draw (-0.5,0) rectangle +(1,1) (0.5,0) rectangle +(0.5,1);
+		\node(p) at (0,0.5) {A};
+		\draw [-{Latex[length=2.5mm]}] (1,0.5) -- (2,0.5);
+		\draw (2,0) rectangle +(1,1) (3,0) rectangle +(0.5,1);
+		\node(p) at (2.5,0.5) {B};
+		\draw [-{Latex[length=2.5mm]}] (3.5,0.5) -- (4.5,0.5);
+		\draw (4.5,0) rectangle +(1,1) (5.5,0) rectangle +(0.5,1);
+		\node(p) at (5,0.5) {C};
+		\draw [-{Latex[length=2.5mm]}] (6,0.5) -- (7,0.5);
+		\draw (7,0) rectangle +(1,1) (8,0) rectangle +(0.5,1);
+		\node(p) at (7.5,0.5) {D};
+	\end{tikzpicture}
+\end{frame}
+
+\subsubsection{M\'etodos}
+
+\begin{frame}{Inserci\'on}
+	\begin{itemize}
+		\item Hay que comprobar donde se encuentra el \'ultimo nodo
+		\item 
+	\end{itemize}
+	%\centering
+	%\animategraphics[autoplay,loop,width=3cm]{20}{animaciones/Estructuras/colas/insertion/qeue-}{0}{164}
+\end{frame}
+
+\begin{frame}{Eliminaci\'on}
+	\begin{itemize}
+		\item Hay que comprobar que no este vac\'ia
+		\item El inicio es el elemento siguiente al que eliminamos
+	\end{itemize}
+	%\centering
+	%\animategraphics[autoplay,loop,width=3cm]{20}{animaciones/Estructuras/colas/elimination/deque-}{0}{149}
 \end{frame}
 
 \section{Objetos}
