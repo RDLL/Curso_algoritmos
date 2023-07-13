@@ -297,69 +297,98 @@
 \headcommand {\beamer@framepages {110}{110}}
 \headcommand {\slideentry {8}{4}{5}{111/111}{Listas simples}{0}}
 \headcommand {\beamer@framepages {111}{111}}
-\headcommand {\beamer@sectionpages {94}{111}}
-\headcommand {\beamer@subsectionpages {107}{111}}
-\headcommand {\sectionentry {9}{Objetos}{112}{Objetos}{0}}
-\headcommand {\slideentry {9}{0}{1}{112/112}{}{0}}
+\headcommand {\slideentry {8}{4}{6}{112/112}{Listas simples}{0}}
 \headcommand {\beamer@framepages {112}{112}}
-\headcommand {\beamer@subsectionpages {112}{112}}
-\headcommand {\beamer@subsectionentry {0}{9}{1}{113}{Introducci\'on}}
-\headcommand {\slideentry {9}{1}{1}{113/113}{Introducci\'on}{0}}
+\headcommand {\slideentry {8}{4}{7}{113/113}{Listas simples}{0}}
 \headcommand {\beamer@framepages {113}{113}}
-\headcommand {\beamer@sectionpages {112}{113}}
-\headcommand {\beamer@subsectionpages {113}{113}}
-\headcommand {\sectionentry {10}{Ordenamiento}{114}{Ordenamiento}{0}}
-\headcommand {\slideentry {10}{0}{1}{114/114}{}{0}}
+\headcommand {\slideentry {8}{4}{8}{114/114}{Listas simples}{0}}
 \headcommand {\beamer@framepages {114}{114}}
-\headcommand {\beamer@subsectionpages {114}{114}}
-\headcommand {\beamer@subsectionentry {0}{10}{1}{115}{Introducci\'on}}
-\headcommand {\slideentry {10}{1}{1}{115/115}{Introducci\'on}{0}}
+\headcommand {\slideentry {8}{4}{9}{115/115}{Listas simples}{0}}
 \headcommand {\beamer@framepages {115}{115}}
-\headcommand {\beamer@sectionpages {114}{115}}
-\headcommand {\beamer@subsectionpages {115}{115}}
-\headcommand {\sectionentry {11}{B\'usqueda}{116}{B\'usqueda}{0}}
-\headcommand {\slideentry {11}{0}{1}{116/116}{}{0}}
+\headcommand {\beamer@subsectionpages {107}{115}}
+\headcommand {\beamer@subsectionentry {0}{8}{5}{116}{Listas dobles}}
+\headcommand {\slideentry {8}{5}{1}{116/116}{Listas dobles}{0}}
 \headcommand {\beamer@framepages {116}{116}}
-\headcommand {\beamer@subsectionpages {116}{116}}
-\headcommand {\beamer@subsectionentry {0}{11}{1}{117}{Introducci\'on}}
-\headcommand {\slideentry {11}{1}{1}{117/117}{Introducci\'on}{0}}
+\headcommand {\slideentry {8}{5}{2}{117/117}{Listas dobles}{0}}
 \headcommand {\beamer@framepages {117}{117}}
-\headcommand {\beamer@sectionpages {116}{117}}
-\headcommand {\beamer@subsectionpages {117}{117}}
-\headcommand {\sectionentry {12}{Grafos}{118}{Grafos}{0}}
-\headcommand {\slideentry {12}{0}{1}{118/118}{}{0}}
+\headcommand {\beamer@subsubsectionentry {0}{8}{5}{1}{118}{M\'etodos}}
+\headcommand {\slideentry {8}{5}{3}{118/118}{Listas dobles}{0}}
 \headcommand {\beamer@framepages {118}{118}}
-\headcommand {\beamer@subsectionpages {118}{118}}
-\headcommand {\beamer@subsectionentry {0}{12}{1}{119}{Introducci\'on}}
-\headcommand {\slideentry {12}{1}{1}{119/119}{Introducci\'on}{0}}
+\headcommand {\slideentry {8}{5}{4}{119/119}{Listas dobles}{0}}
 \headcommand {\beamer@framepages {119}{119}}
-\headcommand {\beamer@sectionpages {118}{119}}
-\headcommand {\beamer@subsectionpages {119}{119}}
-\headcommand {\sectionentry {13}{Cadenas}{120}{Cadenas}{0}}
-\headcommand {\slideentry {13}{0}{1}{120/120}{}{0}}
+\headcommand {\slideentry {8}{5}{5}{120/120}{Listas dobles}{0}}
 \headcommand {\beamer@framepages {120}{120}}
-\headcommand {\beamer@subsectionpages {120}{120}}
-\headcommand {\beamer@subsectionentry {0}{13}{1}{121}{Introducci\'on}}
-\headcommand {\slideentry {13}{1}{1}{121/121}{Introducci\'on}{0}}
+\headcommand {\slideentry {8}{5}{6}{121/121}{Listas dobles}{0}}
 \headcommand {\beamer@framepages {121}{121}}
-\headcommand {\beamer@sectionpages {120}{121}}
-\headcommand {\beamer@subsectionpages {121}{121}}
-\headcommand {\sectionentry {14}{Referencias}{122}{Referencias}{0}}
-\headcommand {\slideentry {14}{0}{1}{122/122}{}{0}}
+\headcommand {\slideentry {8}{5}{7}{122/122}{Listas dobles}{0}}
 \headcommand {\beamer@framepages {122}{122}}
-\headcommand {\beamer@subsectionpages {122}{122}}
-\headcommand {\slideentry {14}{1}{1}{123/123}{}{0}}
+\headcommand {\slideentry {8}{5}{8}{123/123}{Listas dobles}{0}}
 \headcommand {\beamer@framepages {123}{123}}
-\headcommand {\slideentry {14}{1}{1}{123/124}{}{0}}
-\headcommand {\beamer@framepages {123}{124}}
-\headcommand {\slideentry {14}{1}{1}{123/125}{}{0}}
-\headcommand {\beamer@framepages {123}{125}}
-\headcommand {\slideentry {14}{1}{1}{123/126}{}{0}}
-\headcommand {\beamer@framepages {123}{126}}
-\headcommand {\slideentry {14}{1}{2}{127/127}{}{0}}
+\headcommand {\slideentry {8}{5}{9}{124/124}{Listas dobles}{0}}
+\headcommand {\beamer@framepages {124}{124}}
+\headcommand {\beamer@sectionpages {94}{124}}
+\headcommand {\beamer@subsectionpages {116}{124}}
+\headcommand {\sectionentry {9}{Objetos}{125}{Objetos}{0}}
+\headcommand {\slideentry {9}{0}{1}{125/125}{}{0}}
+\headcommand {\beamer@framepages {125}{125}}
+\headcommand {\beamer@subsectionpages {125}{125}}
+\headcommand {\beamer@subsectionentry {0}{9}{1}{126}{Introducci\'on}}
+\headcommand {\slideentry {9}{1}{1}{126/126}{Introducci\'on}{0}}
+\headcommand {\beamer@framepages {126}{126}}
+\headcommand {\beamer@sectionpages {125}{126}}
+\headcommand {\beamer@subsectionpages {126}{126}}
+\headcommand {\sectionentry {10}{Ordenamiento}{127}{Ordenamiento}{0}}
+\headcommand {\slideentry {10}{0}{1}{127/127}{}{0}}
 \headcommand {\beamer@framepages {127}{127}}
-\headcommand {\beamer@partpages {1}{127}}
-\headcommand {\beamer@subsectionpages {123}{127}}
-\headcommand {\beamer@sectionpages {122}{127}}
-\headcommand {\beamer@documentpages {127}}
-\headcommand {\gdef \inserttotalframenumber {127}}
+\headcommand {\beamer@subsectionpages {127}{127}}
+\headcommand {\beamer@subsectionentry {0}{10}{1}{128}{Introducci\'on}}
+\headcommand {\slideentry {10}{1}{1}{128/128}{Introducci\'on}{0}}
+\headcommand {\beamer@framepages {128}{128}}
+\headcommand {\beamer@sectionpages {127}{128}}
+\headcommand {\beamer@subsectionpages {128}{128}}
+\headcommand {\sectionentry {11}{B\'usqueda}{129}{B\'usqueda}{0}}
+\headcommand {\slideentry {11}{0}{1}{129/129}{}{0}}
+\headcommand {\beamer@framepages {129}{129}}
+\headcommand {\beamer@subsectionpages {129}{129}}
+\headcommand {\beamer@subsectionentry {0}{11}{1}{130}{Introducci\'on}}
+\headcommand {\slideentry {11}{1}{1}{130/130}{Introducci\'on}{0}}
+\headcommand {\beamer@framepages {130}{130}}
+\headcommand {\beamer@sectionpages {129}{130}}
+\headcommand {\beamer@subsectionpages {130}{130}}
+\headcommand {\sectionentry {12}{Grafos}{131}{Grafos}{0}}
+\headcommand {\slideentry {12}{0}{1}{131/131}{}{0}}
+\headcommand {\beamer@framepages {131}{131}}
+\headcommand {\beamer@subsectionpages {131}{131}}
+\headcommand {\beamer@subsectionentry {0}{12}{1}{132}{Introducci\'on}}
+\headcommand {\slideentry {12}{1}{1}{132/132}{Introducci\'on}{0}}
+\headcommand {\beamer@framepages {132}{132}}
+\headcommand {\beamer@sectionpages {131}{132}}
+\headcommand {\beamer@subsectionpages {132}{132}}
+\headcommand {\sectionentry {13}{Cadenas}{133}{Cadenas}{0}}
+\headcommand {\slideentry {13}{0}{1}{133/133}{}{0}}
+\headcommand {\beamer@framepages {133}{133}}
+\headcommand {\beamer@subsectionpages {133}{133}}
+\headcommand {\beamer@subsectionentry {0}{13}{1}{134}{Introducci\'on}}
+\headcommand {\slideentry {13}{1}{1}{134/134}{Introducci\'on}{0}}
+\headcommand {\beamer@framepages {134}{134}}
+\headcommand {\beamer@sectionpages {133}{134}}
+\headcommand {\beamer@subsectionpages {134}{134}}
+\headcommand {\sectionentry {14}{Referencias}{135}{Referencias}{0}}
+\headcommand {\slideentry {14}{0}{1}{135/135}{}{0}}
+\headcommand {\beamer@framepages {135}{135}}
+\headcommand {\beamer@subsectionpages {135}{135}}
+\headcommand {\slideentry {14}{1}{1}{136/136}{}{0}}
+\headcommand {\beamer@framepages {136}{136}}
+\headcommand {\slideentry {14}{1}{1}{136/137}{}{0}}
+\headcommand {\beamer@framepages {136}{137}}
+\headcommand {\slideentry {14}{1}{1}{136/138}{}{0}}
+\headcommand {\beamer@framepages {136}{138}}
+\headcommand {\slideentry {14}{1}{1}{136/139}{}{0}}
+\headcommand {\beamer@framepages {136}{139}}
+\headcommand {\slideentry {14}{1}{2}{140/140}{}{0}}
+\headcommand {\beamer@framepages {140}{140}}
+\headcommand {\beamer@partpages {1}{140}}
+\headcommand {\beamer@subsectionpages {136}{140}}
+\headcommand {\beamer@sectionpages {135}{140}}
+\headcommand {\beamer@documentpages {140}}
+\headcommand {\gdef \inserttotalframenumber {140}}

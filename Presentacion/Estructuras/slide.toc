@@ -38,14 +38,16 @@
 \beamer@subsubsectionintoc {8}{3}{1}{M\'etodos}{104}{0}{8}
 \beamer@subsectionintoc {8}{4}{Listas simples}{107}{0}{8}
 \beamer@subsubsectionintoc {8}{4}{1}{M\'etodos}{109}{0}{8}
-\beamer@sectionintoc {9}{Objetos}{112}{0}{9}
-\beamer@subsectionintoc {9}{1}{Introducci\'on}{113}{0}{9}
-\beamer@sectionintoc {10}{Ordenamiento}{114}{0}{10}
-\beamer@subsectionintoc {10}{1}{Introducci\'on}{115}{0}{10}
-\beamer@sectionintoc {11}{B\'usqueda}{116}{0}{11}
-\beamer@subsectionintoc {11}{1}{Introducci\'on}{117}{0}{11}
-\beamer@sectionintoc {12}{Grafos}{118}{0}{12}
-\beamer@subsectionintoc {12}{1}{Introducci\'on}{119}{0}{12}
-\beamer@sectionintoc {13}{Cadenas}{120}{0}{13}
-\beamer@subsectionintoc {13}{1}{Introducci\'on}{121}{0}{13}
-\beamer@sectionintoc {14}{Referencias}{122}{0}{14}
+\beamer@subsectionintoc {8}{5}{Listas dobles}{116}{0}{8}
+\beamer@subsubsectionintoc {8}{5}{1}{M\'etodos}{118}{0}{8}
+\beamer@sectionintoc {9}{Objetos}{125}{0}{9}
+\beamer@subsectionintoc {9}{1}{Introducci\'on}{126}{0}{9}
+\beamer@sectionintoc {10}{Ordenamiento}{127}{0}{10}
+\beamer@subsectionintoc {10}{1}{Introducci\'on}{128}{0}{10}
+\beamer@sectionintoc {11}{B\'usqueda}{129}{0}{11}
+\beamer@subsectionintoc {11}{1}{Introducci\'on}{130}{0}{11}
+\beamer@sectionintoc {12}{Grafos}{131}{0}{12}
+\beamer@subsectionintoc {12}{1}{Introducci\'on}{132}{0}{12}
+\beamer@sectionintoc {13}{Cadenas}{133}{0}{13}
+\beamer@subsectionintoc {13}{1}{Introducci\'on}{134}{0}{13}
+\beamer@sectionintoc {14}{Referencias}{135}{0}{14}
