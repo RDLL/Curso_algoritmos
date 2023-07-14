@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/rdll/Curso_algoritmos/Presentacion/Estructuras/animaciones/Estructuras/listas/simples/insertion/atbegin/media/videos/insertion/480p15/partial_movie_files/ListaDoble/4266129954_349922472_223132457.mp4'
+file 'file:/home/rdll/Curso_algoritmos/Presentacion/Estructuras/animaciones/Estructuras/listas/simples/insertion/atbegin/media/videos/insertion/480p15/partial_movie_files/ListaDoble/1442284246_329969645_3384012116.mp4'
+file 'file:/home/rdll/Curso_algoritmos/Presentacion/Estructuras/animaciones/Estructuras/listas/simples/insertion/atbegin/media/videos/insertion/480p15/partial_movie_files/ListaDoble/1442284246_883426107_282393003.mp4'
+file 'file:/home/rdll/Curso_algoritmos/Presentacion/Estructuras/animaciones/Estructuras/listas/simples/insertion/atbegin/media/videos/insertion/480p15/partial_movie_files/ListaDoble/1442284246_329969645_1180090361.mp4'
