@@ -1,9 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/home/rdll/Curso_algoritmos/Presentacion/Estructuras/animaciones/Estructuras/listas/simples/insertion/atbegin/media/videos/insertion/480p15/partial_movie_files/Lista/4266129954_3587947643_223132457.mp4'
-file 'file:/home/rdll/Curso_algoritmos/Presentacion/Estructuras/animaciones/Estructuras/listas/simples/insertion/atbegin/media/videos/insertion/480p15/partial_movie_files/Lista/1442284246_2789787925_3417818110.mp4'
-file 'file:/home/rdll/Curso_algoritmos/Presentacion/Estructuras/animaciones/Estructuras/listas/simples/insertion/atbegin/media/videos/insertion/480p15/partial_movie_files/Lista/1442284246_1905668406_1197112249.mp4'
-file 'file:/home/rdll/Curso_algoritmos/Presentacion/Estructuras/animaciones/Estructuras/listas/simples/insertion/atbegin/media/videos/insertion/480p15/partial_movie_files/Lista/1442284246_3624325309_1123149636.mp4'
-file 'file:/home/rdll/Curso_algoritmos/Presentacion/Estructuras/animaciones/Estructuras/listas/simples/insertion/atbegin/media/videos/insertion/480p15/partial_movie_files/Lista/1442284246_572985276_2685322755.mp4'
-file 'file:/home/rdll/Curso_algoritmos/Presentacion/Estructuras/animaciones/Estructuras/listas/simples/insertion/atbegin/media/videos/insertion/480p15/partial_movie_files/Lista/1442284246_2543410331_155159444.mp4'
-file 'file:/home/rdll/Curso_algoritmos/Presentacion/Estructuras/animaciones/Estructuras/listas/simples/insertion/atbegin/media/videos/insertion/480p15/partial_movie_files/Lista/1442284246_617483993_2779003235.mp4'
-file 'file:/home/rdll/Curso_algoritmos/Presentacion/Estructuras/animaciones/Estructuras/listas/simples/insertion/atbegin/media/videos/insertion/480p15/partial_movie_files/Lista/1442284246_329969645_81702437.mp4'
