@@ -1,0 +1,88 @@
+\documentclass{beamer}
+\usepackage{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage{cite}
+\usepackage{relsize}
+\usepackage{animate}
+
+
+\usefonttheme[onlymath]{serif}
+%C++ symbol
+\newcommand{\Rplus}{\protect\hspace{-.1em}\protect\raisebox{.35ex}{\smaller{\smaller\textbf{+}}}}
+\newcommand{\Cpp}{\mbox{C\Rplus\Rplus}\hspace{3pt}}
+%Scientific notation
+\newcommand{\expnumber}[2]{{#1}\mathrm{e}{#2}}
+
+\usepackage{latexsym,amsmath,xcolor,multicol,booktabs,calligra}
+\usepackage{graphicx,tikz,listings,stackengine}
+\usetikzlibrary{shapes,snakes,matrix, positioning,arrows.meta}
+\setbeamertemplate{bibliography item}[text]
+
+\author{Rafael De Luna Loredo}
+\title{Programaci\'on en Python y \Cpp}
+\subtitle{Archivos}
+\institute{Facultad de Ciencias, UASLP}
+\date{}
+\usepackage{NJFU}
+
+% defs
+\def\cmd#1{\texttt{\color{red}\footnotesize $\backslash$#1}}
+\def\env#1{\texttt{\color{blue}\footnotesize #1}}
+\definecolor{deepblue}{rgb}{0,0,0.5}
+\definecolor{deepred}{rgb}{0.6,0,0}
+\definecolor{deepgreen}{rgb}{0,0.5,0}
+\definecolor{halfgray}{gray}{0.55}
+
+\begin{document}
+	
+	\AtBeginSubsection[]
+	{
+		\begin{frame}
+			\begin{multicols}{3}
+				\tableofcontents[currentsection,subsectionstyle=show/shaded/hide,subsubsectionstyle=show/shaded/hide]
+			\end{multicols}
+		\end{frame}
+	}
+	\AtBeginSubsubsection[]{
+		\begin{frame}
+			\begin{multicols}{3}
+				\tableofcontents[currentsection,subsectionstyle=show/shaded/hide,subsubsectionstyle=show/shaded/hide]
+			\end{multicols}
+		\end{frame}
+	}
+	
+	\AtBeginSection[]
+	{
+		\begin{frame}
+			\begin{multicols*}{3}
+				\tableofcontents[currentsection,subsectionstyle=show/shaded/hide,subsubsectionstyle=show/shaded/hide]
+			\end{multicols*}
+		\end{frame}
+	}
+	
+	\begin{frame}
+		\titlepage
+		\begin{figure}[htpb]
+			\begin{center}
+				\includegraphics[width=0.2\linewidth]{fig/logo.png}
+			\end{center}
+		\end{figure}
+	\end{frame}
+	
+	\begin{frame}{Indice}
+		\begin{multicols*}{3}
+			\tableofcontents[sectionstyle=show,subsectionstyle=show/shaded/hide,subsubsectionstyle=show/shaded/hide]
+		\end{multicols*}
+	\end{frame}
+
+
+\section{Referencias}
+\subsection{}
+\begin{frame}[allowframebreaks]
+	
+	\frametitle{Referencias}
+	\bibliographystyle{acm}
+	\bibliography{ref.bib}
+\end{frame}
+
+\end{document}
