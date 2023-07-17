@@ -9,6 +9,6 @@ int main()
 	cin >> a;
 	b=a;
 	d=c=b;
-	cout << " el valor de d es igual a c y el valor de c es igual a b por lo tanto d es igual a b y b es igual a a" << '\n';
+	cout << "a: " << b << '\n' << "b: " << c << '\n' << "c: " << d << '\n';
 	return 0;
 }
