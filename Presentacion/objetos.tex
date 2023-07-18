@@ -20,7 +20,7 @@
 
 \author{Rafael De Luna Loredo}
 \title{Programaci\'on en Python y \Cpp}
-\subtitle{Objetos}
+\subtitle{Programaci\'on Orientada a Objetos}
 \institute{Facultad de Ciencias, UASLP}
 \date{}
 \usepackage{NJFU}
@@ -75,6 +75,101 @@
 		\end{multicols*}
 	\end{frame}
 
+
+\section{Introducci\'on}
+
+\begin{frame}{Programaci\'on Orientada a Objetos}
+	Es un paradigma de programaci\'on que nos permite representar mejor conceptos de la realidad mediante objetos, que no es mas que una manera de llamar
+	a una especie de estructura de datos pero que no trabaja como tal solo con datos sino con conceptos propios de un objeto real como un carro, como puede ser 
+	el estado de la bater\'ia, nivel del tanque, la velocidad actual o velocidad m\'axima, de igual manera no solo estados sino tambi\'en acciones como puede ser
+	el avanzar, pitar, encender o abrir cajuela. 
+	Entonces la POO es una manera de interpretar objetos del mundo real en t\'erminos de programaci\'on.
+\end{frame}
+
+\begin{frame}{Elementos clave}
+	\begin{itemize}
+		\item Las acciones o comportamientos se llaman m\'etodos
+		\item Se basan en una plantilla llamada clase
+		\item Los datos o informaci\'on que contiene se llaman atributos 
+		\item  Los m\'etodos de una clase son propios de esa clase 
+		\item Los atributos y m\'etodos pueden ser p\'ublicos, privados o heredados
+	\end{itemize}
+\end{frame}
+
+\section{clases}
+
+\begin{frame}{Clases}
+	Son una plantilla sobre la que se construye un objeto, como si del plano de un edificio se tratara o del diseño de un carro, puede resultar algo confuso pero resumiendo, el objeto 
+	es cuando ya puedes interactuar con el, en el caso del edificio es cuando ya lo ves construido.
+\end{frame}
+
+
+\subsection{Constructor y destructor}
+
+\begin{frame}{Constructor}
+	Es un m\'etodo que  construye el objeto, normalmente se utiliza para darle un estado inicial a los atributos de un objeto pero esto no es obligatorio.
+\end{frame}
+
+\begin{frame}{destructor}
+	Es un m\'etodo que destruye el objeto, se utiliza para realizar algunas acciones, por ejemplo en el caso de un carro, si el motor falla se enviara la alerta al tablero.
+\end{frame}
+
+\subsection{Miembros de una clase}
+\begin{frame}{Miembros de una clase}
+	Hacen referencia a los componentes de una clase, por ejemplo en un carro, tenemos espejos, motor, llantas, asientos, puertas y m\'as.
+	En una clase tendr\'iamos esos mismos componentes pero haciendo referencia mediante un tipo de dato.
+\end{frame}
+
+\section{Nivel de acceso}
+
+\begin{frame}{P\'ublico}
+	Nos dice que cualquiera puede hacer uso de la clase o de los m\'etodos de la misma, un modo de verlo ser\'ia como tener una casa sin seguro, cualquiera podr\'ia entrar.
+\end{frame}
+
+\begin{frame}{Privado}
+	Cuando una clase es privada quiere decir que solo la clase puede hacer uso de sus m\'etodos, aqu\'i ser\'ia como tener una casa con seguro y solo quien tenga llave podr\'a entrar
+\end{frame}
+
+\begin{frame}{Amigo}
+	Aplica cuando queremos que otra clase o una funci\'on tenga acceso a los miembros de una clase, en el caso de la casa, ser\'ia como darle una llave a un amigo o familiar para que pueda entrar.
+\end{frame}
+
+\begin{frame}{Protegido}
+	Es parecido al nivel amigo, sin embargo aplica para herencia de clases que veremos m\'as adelante, sirve para dar acceso a los miembros privados de una clase a sus clases derivadas, es como cuando tus pap\'as
+	te dan permiso para algo.
+\end{frame}
+
+\section{Herencia}
+
+\begin{frame}{Clase Padre}
+	Es la clase hija principal o de la que las dem\'as heredan y que tiene caracter\'isticas comunes a todas las subclases o clases hijas, un ejemplo ser\'ia una clase veh\'iculo como clase principal y las clases carro y motocicleta
+	como subclases 
+\end{frame}
+
+\begin{frame}{Clase Hija}
+	Es la clase que hereda los m\'etodos y atributos de la clase padre, tienen muchas caracter\'isticas en com\'un pero es necesario diferenciar una subclase de otra, como por ejemplo una motocicleta y un carro, como caracter\'isticas comunes ambos son veh\'iculos a motor y tienen ruedas, pero no son iguales en tamaño ni en capacidad
+\end{frame}
+
+\section{Polimorfismo}
+
+\begin{frame}{Polimorfismo}
+	Es la capacidad de una clase base de actuar como una de sus clases derivadas, es decir puede adoptar m\'ultiples formas.
+\end{frame}
+
+\subsection{Abstracci\'on}
+
+\begin{frame}{Clases abstractas}
+	Son clases de las clases no se pueden declarar instancias, es decir solo son una plantilla, ya que solo sirven de base para poder crear las subclases u objeto de sus clases derivadas, un ejemplo ser\'ia
+	la clase veh\'iculo, si declaramos una clase veh\'iculo no podr\'iamos saber de que tipo de veh\'iculo se trata.
+\end{frame}
+
+\begin{frame}{M\'etodos virtuales}
+	Son m\'etodos de una clase abstracta pero que su definici\'on o redefinici\'on se hace en las clases heredadas. Una clase abstracta contiene por lo menos un m\'etodo virtual.
+\end{frame}
+
+\begin{frame}{Interfaces}
+	Una interfaz es una clase abstracta que solo tiene m\'etodos virtuales, son muy \'utiles para declarar funcionalidades generales .\nocite{BHASIN,BJARNE1,BJARNE2,CAIRO,CPP,DEITEL,DOWNEY,JAWORSKI,KENN,lAAKMANN,MATTHES,RAMALHO,SED,BRASSARD}
+\end{frame}
 
 \section{Referencias}
 \subsection{}
