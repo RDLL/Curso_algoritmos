@@ -286,8 +286,6 @@
 		\item El nodo siguiente de ins apuntara al nodo anterior de ini
 		\item El nodo anterior de ins ser\'a nulo
 	\end{itemize}
-	\centering
-	\animategraphics[autoplay,loop,width=4cm]{15}{animaciones/Estructuras/listas/dobles/insertion/begin/begin-}{0}{89}
 \end{frame}
 
 \begin{frame}{Inserci\'on al final}
@@ -297,8 +295,6 @@
 		\item El nodo anterior de ins apuntara al nodo siguiente de fin
 		\item EL nodo siguiente de ins ser\'a nulo
 	\end{itemize}
-	%\centering
-	%\animategraphics[autoplay,loop,width=3cm]{20}{animaciones/Estructuras/colas/insertion/qeue-}{0}{164}
 \end{frame}
 
 \begin{frame}{Inserci\'on entre nodos}
@@ -309,8 +305,6 @@
 		\item Nodo siguiente de ins apuntara a nodo anterior de der
 		\item Nodo anterior de der apuntara a nodo siguiente de ins
 	\end{itemize}
-	%\centering
-	%\animategraphics[autoplay,loop,width=3cm]{20}{animaciones/Estructuras/colas/insertion/qeue-}{0}{164}
 \end{frame}
 
 \begin{frame}{Eliminaci\'on al inicio}
@@ -319,8 +313,6 @@
 		\item Nodo anterior de nwini\footnote{segundo elemento} ser\'a nulo 
 		\item Eliminamos nodo siguiente de elim\footnote{elemento a eliminar}
 	\end{itemize}
-	%\centering
-	%\animategraphics[autoplay,loop,width=3cm]{20}{animaciones/Estructuras/colas/elimination/deque-}{0}{149}
 \end{frame}
 
 \begin{frame}{Eliminaci\'on al final}
@@ -329,18 +321,159 @@
 		\item Hacemos nodo siguiente de nwfin\footnote{elemento anterior a fin} nulo
 		\item Hacemos nulo al nodo anterior de fin
 	\end{itemize}
-	%\centering
-	%\animategraphics[autoplay,loop,width=3cm]{20}{animaciones/Estructuras/colas/elimination/deque-}{0}{149}
 \end{frame}
 
 \begin{frame}{Eliminaci\'on entre nodos}
 	\begin{itemize}
 		\item Localizamos elim
 		\item Nodo siguiente de der apunta a nodo anterior de izq
-		\item Nodo anterior de izq apunte a izq\nocite{BHASIN,BJARNE1,BJARNE2,CAIRO,CPP,DEITEL,DOWNEY,JAWORSKI,KENN,lAAKMANN,MATTHES,RAMALHO,SED,BRASSARD}
+		\item Nodo anterior de izq apunte a izq\nocite{BHASIN,BJARNE1,BJARNE2,CAIRO,CPP,DEITEL,DOWNEY,JAWORSKI,KENN,lAAKMANN,MATTHES,RAMALHO,SED,BRASSARD,CAIRO2}
 	\end{itemize}
-	%\centering
-	%\animategraphics[autoplay,loop,width=3cm]{20}{animaciones/Estructuras/colas/elimination/deque-}{0}{149}
+\end{frame}
+
+\section{Arboles}
+
+\begin{frame}{Arboles}
+	Son estructuras din\'amicas no lineales ordenadas y una de las mas importantes en computaci\'on.
+	Pueden cambiar tanto de forma como de tamaño durante la ejecuci\'on.\\
+	\centering
+\begin{tikzpicture}
+	[level distance=10mm,
+	every node/.style={fill=red!60,circle,inner sep=1pt},
+	level 1/.style={sibling distance=20mm,nodes={fill=red!45}},
+	level 2/.style={sibling distance=10mm,nodes={fill=red!30}},
+	level 3/.style={sibling distance=5mm,nodes={fill=red!25}}]
+	\node {A}
+	child {node {B} 
+		child {node {D}
+			child {node {I}}
+		}
+		child {node {E}
+			child[missing]
+		}
+		child {node {F}
+			child {node {J}}
+			child {node {K}}
+		}
+	}
+	child {node {C}
+		child {node {G}
+			child[missing]
+		}
+		child {node {H}
+			child {node {L}}
+		}
+	};
+\end{tikzpicture}
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+	\frametitle{Conceptos clave}
+	\begin{itemize}
+		\item \textbf{Ra\'iz}: Es el nodo principal o inicial
+		\item \textbf{Padre}:  Un nodo que apunta hacia otros nodos
+		\item \textbf{Hijo}:  Un nodo que es apuntado por otro nodo
+		\item \textbf{Hoja}:  Nodo sin hijos
+		\item \textbf{Nodo interior}: Nodo que no es ra\'iz ni hoja
+		\item \textbf{Grado}: Numero de hijos de un nodo
+		\item \textbf{Grado del \'arbol}: M\'aximo grado de todos los nodos del \'arbol
+		\item \textbf{Brazo}: Conexi\'on entre un nodo y otro
+		\item \textbf{Camino}: Secuencia de nodos y brazos conectados por un hijo
+		\item \textbf{Nivel}:  N\'umero de brazos entre un nodo y la ra\'iz mas uno
+		\item \textbf{Altura}: N\'umero de brazos entre en el camino mas largo entre un nodo y una hoja.
+		\item \textbf{Altura del \'arbol}:  Altura del nodo ra\'iz
+		\item \textbf{Profundidad}: N\'umero de brazos desde la ra\'iz hasta un nodo
+		\item \textbf{Rama}: Una ruta de la ra\'iz a cualquier nodo  
+	\end{itemize}
+\end{frame}
+
+\subsection{Arboles binarios (ABB)}
+
+\begin{frame}{Arboles binarios}
+	Son \'arboles de grado 2 donde cada nodo  tiene m\'aximo dos sub\'arboles, siendo sub\'arbol izquierdo y derecho respectivamente., a la derecha se van colocando los valores mayores que la ra\'iz y a la izquierda los menores.
+\end{frame}
+
+\subsubsection{Operaciones}
+
+\begin{frame}{Inserci\'on}
+	\begin{itemize}
+		\item Si est\'a vac\'io la ra\'iz apunta a null
+		\item Si insertamos un elemento en un \'arbol vac\'io, ra\'iz apuntara a este nuevo elemento y sus dos sub\'arboles apuntaran a null
+		\item  Si no est\'a vac\'io comparamos el nuevo valor a insertar con la ra\'iz, y vamos comparando con cada nodo seg\'un corresponda
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Recorrido en preorden}
+	\begin{itemize}
+		\item Visitamos la ra\'iz
+		\item Recorremos el sub\'arbol izquierdo
+		\item Recorremos el sub\'arbol derecho
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Recorrido en inorden}
+	\begin{itemize}
+		\item Recorremos el sub\'arbol izquierdo
+		\item Visitamos la ra\'iz
+		\item Recorremos el sub\'arbol derecho
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Recorrido en posorden}
+	\begin{itemize}
+		\item Recorremos el sub\'arbol izquierdo
+		\item Recorremos el sub\'arbol derecho
+		\item Visitamos la ra\'iz
+	\end{itemize}
+\end{frame}
+
+
+\subsection{Arboles AVL}
+
+\begin{frame}{Arboles balanceados}
+	Son \'arboles que despu\'es de una inserci\'on o eliminaci\'on se reacomodan manteniendo una diferencia de altura menor o igual 1 entre las ramas derecha e izquierda.
+\end{frame}
+
+\begin{frame}{Ventajas respecto a \'arboles binarios}
+	Los \'arboles balanceados surgieron como una soluci\'on a un problema que tienen los ABB, y es que si en un ABB se insertan datos ordenados de manera ascendente o descendente, estos crecer\'an de manera descontrolada.
+\end{frame}
+
+\subsection{Arboles B}
+\begin{frame}{Arboles B}
+	Son una generalizaci\'on de los \'arboles AVL y representan un m\'etodo para almacenar y recuperar informaci\'on en medios externos.
+\end{frame}
+
+\begin{frame}{Caracter\'isticas}
+	\begin{itemize}
+		\item Un grupo de nodos se llama p\'agina
+		\item En cada p\'agina se almacena la informaci\'on del grupo de nodos y se identifica por medio de claves o llaves.
+		\item Cada p\'agina, excepto la ra\'iz contiene \textbf{d} y \textbf{2d} elementos, siendo \textbf{d} el grado del \'arbol
+		\item La p\'agina ra\'iz tiene al menos dos descendientes
+		\item Las p\'aginas hoja est\'an todas al mismo nivel
+		\item Crecen de las hojas hacia la ra\'iz
+	\end{itemize}
+\end{frame}
+
+\subsection{Arboles B+}
+
+\begin{frame}{Arboles B+}
+	Son muy parecidos a los \'arboles b con la diferencia de que la informaci\'on se encuentra en las hojas, mientras que los nodos ra\'iz e interiores almacenan claves que se utilizan como \'indices.
+\end{frame}
+
+\begin{frame}{Ventajas respecto a \'arboles B}
+	Pese a que ocupan un poco mas de espacio debido a la duplicidad en algunas claves, esto es aceptable si el archivo se modifica frecuentemente, ya que esto evita la reorganizaci\'on.
+\end{frame}
+
+\begin{frame}{Caracter\'isticas}
+	\begin{itemize}
+		\item Cada p\'agina, excepto la ra\'iz contiene \textbf{m} elementos, donde  \textbf{m} es un elemento entre \textbf{d} y \textbf{2d}
+		\item La ra\'iz tiene entre 1 a \textbf{2d}
+		\item Cada p\'agina, excepto la ra\'iz, tiene entre \textbf{d} $+ 1$ y \textbf{2d} $+ 1$ descendientes
+		\item La ra\'iz tiene al menos dos descendientes
+		\item Las hojas est\'an todas al mismo nivel
+		\item Toda la informaci\'on, con las claves que las identifican, se encuentran en las hojas
+		\item Las claves en la ra\'iz y p\'aginas interiores se utilizan como \'indices
+	\end{itemize}
 \end{frame}
 
 \section{Referencias}
