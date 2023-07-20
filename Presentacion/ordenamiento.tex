@@ -92,8 +92,8 @@
 \begin{frame}{Ordenaci\'on y b\'usqueda}
 	Aunque ordenar y buscar sean dos cosas muy distintas, est\'an estrechamente relacionadas, ordenar nos ayuda a establecer los l\'imites de la b\'usqueda.
 	Si buscamos el n\'umero mas pequeño de un conjunto de diez mil n\'umeros no ordenados, podr\'a ser necesario recorrer todo el conjunto.
-	Pero si este estuviera ordenado en forma ascendente o descendente, ni siquiera ser\'ia necesario buscar como tal, sabemos que se encuentra al final o al inicio y
-	solo tendr\'iamos que ir a esa posici\'on
+	Pero si este estuviera ordenado en forma ascendente o descendente, ni siquiera ser\'ia necesario buscar como tal, sabemos que se encuentra al final o  inicio y
+	solo tendr\'iamos que ir a esa posici\'on. 
 \end{frame}
 
 \section{Ordenaci\'on Interna}
@@ -103,10 +103,39 @@
 	Son m\'etodos sencillos y f\'aciles de comprender pero que son ineficientes cuando los datos a ingresar son demasiados
 \end{frame}
 
-\begin{frame}{Ordenaci\'on por intercambio}
-	Tambi\'en conocido como m\'etodo burbuja, es el mas f\'acil de implementar pero el mas ineficiente.\\
+\begin{frame}{Intercambio directo}
+	Conocido como m\'etodo burbuja, es el mas f\'acil de implementar pero el mas ineficiente.\\
 	Consiste en llevar los elementos mas pequeños hacia la parte izquierda o los mas grandes hacia la parte derecha mediante la
 	comparaci\'on de pares adyacentes de elementos e intercambiarlos entre si hasta que todos se encuentren ordenados.
+\end{frame}
+
+\begin{frame}{Sacudida}
+	Es una mejora del m\'etodo burbuja. La diferencia con el m\'etodo burbuja es que cuenta con dos etapas y el uso de una variable auxiliar donde se almacena la posici\'on 
+	del \'ultimo elemento cambiado, en la primera etapa pasa los elementos m\'as pequeños hacia
+	la izquierda mientras que en la segunda pasa los elementos mas grandes hacia la derecha. 
+\end{frame}
+
+\begin{frame}{Inserci\'on directa}
+	Conocido como el m\'etodo de la baraja, por basarse en el como se ordenan las barajas, consiste en insertar los elementos en su parte izquierda que se va ir ordenando.
+	Tiene la particularidad que cuando un elemento ya est\'a bien ubicado se interrumpen las comparaciones a ese elemento.
+\end{frame}
+
+\begin{frame}{Inserci\'on binaria}
+	Es una mejora del m\'etodo de inserci\'on directa, debido al modo en que se hace la b\'usqueda del elemento m\'as pequeño, se hace de manera binaria en vez de secuecial.
+\end{frame}
+
+\begin{frame}{Selecci\'on directa}
+	Es de los m\'as f\'aciles y comprensibles.\\
+	Consiste en buscar el elemento mas pequeño y colocarlo en la primera posici\'on, despu\'es el segundo y colocarlo en su posici\'on, y as\'i sucesivamente.
+\end{frame}
+
+\begin{frame}{Inserci\'on con incrementos decrecientes}
+	Conocido como m\'etodo shell, es una versi\'on mejorada del m\'etodo de inserci\'on directa.\\
+	A diferencia de la inserci\'on directa aqu\'i se realizan las comparaciones con saltos de mayor tamaño pero con incrementos decrecientes; debido a esto los elementos quedan ordenados m\'as r\'apidamente.
+\end{frame}
+
+\begin{frame}{Quicksort}
+	Es el mas eficiente y veloz de los m\'etodos internos
 \end{frame}
 
 \subsection{M\'etodos Logar\'itmicos}
