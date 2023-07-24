@@ -1,6 +1,6 @@
 #include <iostream>
-#include <cstring>
-#include <cstdlib>
+#include <cstring> //Biblioteca para el uso de cadenas
+#include <cstdlib> //Biblioteca de funciones de proposito general
 
 using namespace std;
 
