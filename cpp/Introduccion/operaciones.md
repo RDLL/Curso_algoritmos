@@ -36,7 +36,7 @@ La jerarquía es igual que en matemáticas, pero hay que recordar que se les lla
 
 También es posible guardar los valores de una operación sin embargo hemos de tener cuidado con los tipos de datos que se estén trabajando las operaciones.
 
-En cualquiera de las operaciones haya dos maneras de hacerlas, ya sea guardandolas en una variable o poniendolas directamente en `cout`.
+En cualquiera de las operaciones hay dos maneras de hacerlas, ya sea guardandolas en una variable o poniendolas directamente en `cout`.
 
 ```C++
     int a,b;
