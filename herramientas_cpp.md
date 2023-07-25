@@ -12,11 +12,11 @@ Si prefieres usar un IDE a un editor y compilar por separado puedes ir directame
 
 ## g++
 
-Es un compilador free software por terminal, que compila y enlaza programas de C++ y otros lenguajes como C y Fortran, se instala a tráves de GCC(GNU Compiler collecion).
+Es un compilador free software por terminal, que compila y enlaza programas de C++, se instala a tráves de GCC(GNU Compiler collecion).
 
 En las distros Linux mas comunes y para usuarios promedio por lo general ya viene instalado.
 
-### Arch Linux y derivados
+#### Arch Linux y derivados
 
 pacman
 
@@ -30,19 +30,19 @@ paru
 sudo paru -S gcc
 ```
 
-### Debian y derivados
+#### Debian y derivados
 
 ```bash
 sudo apt-get install gcc
 ```
 
-### Fedora
+#### Fedora
 
 ```bash
 sudo dnf install gcc
 ```
 
-### Windows
+#### Windows
 
 Para windows hay que descargar [MinGW](https://sourceforge.net/projects/mingw/files/Installer/mingw-get-setup.exe/download), lo ejecutamos y seguimos los pasos.
 
@@ -296,7 +296,77 @@ sudo dnf config-manager --add-repo https://download.sublimetext.com/rpm/stable/x
 sudo dnf install sublime-text
 ```
 
-## [Vim](https://www.vim.org/download.php) 
-Es una versión mejorada del editor Vi, es un editor opensource por terminal, en el caso de Windows, tiene una ligera GUI para emular la terminal.
+## Vim
+Es una versión mejorada del editor Vi, es un editor opensource por terminal, en el caso de Windows, tiene una ligera GUI para emular la terminal, tiene múltiples funcionalidades y plugins, además de poder crear o añadirle funcionalidades propias, tiene el detalle que al principio puede ser algo complicado de usar por obligarte a usar demasiado los atajos de teclado.
 
-Suele
+Suele venir instalado en la mayoría de distros Linux.
+
+#### Arch Linux y derivados
+
+pacman
+
+```bash
+sudo pacman -S vim
+```
+
+paru
+
+```bash
+sudo paru -S vim
+```
+
+### Debian y derivados
+
+```bash
+sudo apt-get install vim
+```
+
+### Fedora
+
+```bash
+sudo dnf install vim 
+```
+
+#### Windows
+
+Para Windows solo hay que instalar el ejecutable desde la página de descargas de [Vim](https://www.vim.org/download.php), ejecutarlo y seguir los pasos.
+
+# IDE
+
+Un entorno de desarrollo integrado es un programa que combina las herramientas necesarias o comunes para desarrollar aplicaciones de un determinado lenguaje o de varios lenguajes.
+
+En los IDEs ya no hay que preocuparnos por instalar compilador o editor ya que por defecto los tiene instalados aunque algunos tienen sus opciones sin compilador, por lo que hay que checar cuando se descarguen al menos en Windows.
+
+## Code::Blocks
+
+Es un IDE enfocado para el desarrollo de programas y aplicaciones en C/C++ y Fortran, tiene gran variedad de plugins e incluye compiladores como GCC, Clang y Visual C++.
+
+#### Arch Linux y derivados
+
+pacman
+
+```bash
+sudo pacman -S codeblocks
+```
+
+paru
+
+```bash
+sudo paru -S codeblocks
+```
+
+#### Debian y derivados
+
+```bash
+sudo apt-get install codeblocks
+```
+
+#### Fedora
+
+```bash
+sudo dnf install codeblocks
+```
+
+#### Windows
+
+Solo habrá que descargarlo desde su página de [descargas](https://www.codeblocks.org/downloads/binaries/), asegurarse de elegir la versión que dice mingw-setup.exe ya que esta incluye los compiladores de GCC incluidos en MinGW y no será necesario instalarlos por nuestra cuenta
