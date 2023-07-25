@@ -149,6 +149,154 @@ Lo ejecutamos y en caso de no estar seleccionada la opción de modificar el `PAT
 
 Es un herramienta que nos permite editar archivos de difentes formatos, no confundir con un procesador de textos como lo sería Word, aquí hay bastantes variedades, dependerá de cada quien cuál usar.
 
-Una opción muy buena y fácil de instalar es [Visual Studio Code](https://code.visualstudio.com/download), tiene bastantes herramientas y extensiones que lo pueden convertir en un IDE, al ser de Microsoft tiene muchas compatibilidades con herramientas para desarroladores hechas por la misma compañia, tam
+## Visual Studio Code
 
-Otra opción muy buena es [Sublime Text](https://www.sublimetext.com/download) que tiene
+ [VSCode](https://code.visualstudio.com/download), tiene bastantes herramientas y extensiones que lo pueden convertir en un IDE, al ser de Microsoft tiene mucha compatibilidad con herramientas para desarroladores hechas por la misma compañia, también existe otra versión [vscodium](https://vscodium.com/), que no tiene telemetría ni tracking así como una versión [web](https://vscode.dev/).
+
+ Para descargarlo, en el caso de Windows solo hay que descargar el instalador.
+
+ Para la versión de Linux hay dos maneras, descargando el binario según tu distro o instalando las claves y repositorio de VSCode
+
+#### Arch Linux y derivados
+
+pacman
+
+```bash
+sudo pacman -S code
+```
+
+paru
+
+```bash
+sudo paru -S visual-studio-code-bin
+```
+
+#### Debian y derivados
+
+Primero hay que agregar la llave y repositorio
+
+```bash
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+```
+
+```bash
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+```
+
+```bash
+sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+```
+
+```bash
+rm -f packages.microsoft.gpg
+```
+
+```bash
+sudo apt install apt-transport-https
+```
+
+```bash
+sudo apt update
+```
+
+```bash
+sudo apt install code
+```
+
+Aquí se instala VSCode
+
+#### Fedora
+
+```bash
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+```
+
+```bash
+sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+
+```
+
+```bash
+sudo dnf install code
+```
+
+## Sublime Text
+
+Otra opción muy buena es [Sublime Text](https://www.sublimetext.com/download) que aunque no es open source tiene una versión gratuita muy buena y completa que compite directamente contra VSCode y también tiene una multitud de plugins y funcionalidades. Tiene una versión portable en Windows.
+
+Para Windows se puede descargar ya sea la versión portable o el instalador.
+
+En Linux al igual que con VSCode hay dos maneras, descargando el binario o agregando la llave y repositorio.
+
+#### Arch Linux y derivados
+
+pacman
+
+Hay que agregar la llave y el repositorio
+
+```bash
+curl -O https://download.sublimetext.com/sublimehq-pub.gpg && 
+sudo pacman-key --add sublimehq-pub.gpg && 
+sudo pacman-key --lsign-key 8A8F901A && 
+rm sublimehq-pub.gpg
+```
+
+```bash
+echo -e "\n[sublime-text]\nServer = https://download.sublimetext.com/arch/stable/x86_64" | sudo tee -a /etc/pacman.conf
+```
+
+```bash
+sudo pacman -Syu sublime-text
+```
+
+paru
+
+```bash
+sudo paru -S sublime-text-4
+```
+
+#### Debian y derivados
+
+Primero hay que agregar la llave y repositorio
+
+```bash
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
+```
+
+```bash
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+```
+
+```bash
+sudo apt install apt-transport-https
+```
+
+```bash
+sudo apt update
+```
+
+```bash
+sudo apt install code
+```
+
+Aquí se instala VSCode
+
+#### Fedora
+
+```bash
+sudo rpm -v --import https://download.sublimetext.com/sublimehq-rpm-pub.gpg
+```
+
+```bash
+sudo dnf config-manager --add-repo https://download.sublimetext.com/rpm/stable/x86_64/sublime-text.repo
+
+```
+
+```bash
+sudo dnf install sublime-text
+```
+
+## [Vim](https://www.vim.org/download.php) 
+Es una versión mejorada del editor Vi, es un editor opensource por terminal, en el caso de Windows, tiene una ligera GUI para emular la terminal.
+
+Suele
