@@ -1,12 +1,10 @@
 #include "simple.hpp"
 
 void push(SIMPLE *head){
-    int x;
-    x = pedir();
     SIMPLE nuevo;
     try{
         nuevo = new LISTA;
-        nuevo->data = x;
+        nuevo->data = pedir();
         nuevo->sig = *head;
         *head = nuevo;
     }
