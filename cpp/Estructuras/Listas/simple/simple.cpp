@@ -1,25 +1,63 @@
 #include "simple.hpp"
 
-void push(lista *L,float x, float y){
-    lista aux = new SIMPLE;
-    aux -> x = x;
-    aux -> y = y;
-    aux -> sig = *L;
-    *L = aux;
-    std::cout << "Se agrego a la lista\n";
-}
-
-void mostrar(SIMPLE *L){
-    while(L!=NULL){
-        std::cout << "x: " << L -> x << " y: " << L -> y << "\n";
-        L = L->sig;
+void push(SIMPLE *head){
+    int x;
+    x = pedir();
+    SIMPLE nuevo;
+    try{
+        nuevo = new LISTA;
+        nuevo->data = x;
+        nuevo->sig = *head;
+        *head = nuevo;
     }
-    std::cout << "Fin de la lista\n";
+    catch(std::bad_alloc&){
+        std::cout << "Memory Error!\n";
+        return;
+    }
 }
 
-void pop(lista *L){
-    lista aux = *L;
-    (*L) = (*L) -> sig;
-    delete aux;
+void imprimir(SIMPLE head){
+    int i = 0;
+    while(head != NULL){
+        ++i;
+        std::cout << "ID nodo lista: " << i << " Valor: " << head->data << '\n';
+        head =  head->sig;
+    }
 }
 
+void pop(SIMPLE *head){
+    SIMPLE actual;
+    while(*head != NULL){
+        actual = *head;
+        *head = (*head)->sig;
+        delete actual;
+    }
+}
+
+int menu(){
+    system("clear"); //cls en windows
+    int op;
+    std::cout << "Selecciona una opcion:\n";
+    std::cout << "1.- Insertar\n";
+    std::cout << "2.- Eliminar\n";
+    std::cout << "3.- Mostrar\n";
+    std::cout << "4.- Salir\n";
+    std::cin >> op;
+    if(op > 4 || op < 1){
+        system("clear"); //cls en windows
+        std::cout << "Ingresa una opcion valida\n";
+        std::cout << "Oprime una tecla para continuar\n";
+        std::cin.get();
+        op = menu();
+    }else
+        return op;
+    return op;
+}
+
+int pedir(){
+    int x;
+    std::cout << "Ingresa un dato: \n";
+    std::cin >> x;
+    std::cout << '\n';
+    return x;
+}

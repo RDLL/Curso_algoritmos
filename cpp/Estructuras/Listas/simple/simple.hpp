@@ -3,18 +3,20 @@
 
 #include <iostream>
 #include <cstdlib>
-
+#include <exception>
 
 typedef struct nod{
-    float x,y;
+    int data;
     nod *sig;
-}SIMPLE;
+}LISTA;
 
-typedef SIMPLE* lista;
+typedef LISTA* SIMPLE;
 
-void push(lista *L, float x, float y);
-void mostrar(SIMPLE *L);
-void pop(lista *L);
+void push(SIMPLE *head);
+void imprimir(SIMPLE head);
+void pop(SIMPLE *head);
+int menu();
+int pedir();
 
 #endif
 
